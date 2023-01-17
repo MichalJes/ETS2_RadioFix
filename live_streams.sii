@@ -1,15 +1,15 @@
 SiiNunit
 {
 live_stream_def : _nameless.1f0.a261.fcd0 {
- stream_data: 275
+ stream_data: 280
  stream_data[0]: "http://ice-the.musicradio.com:80/LBC973MP3Low|LBC||EN|0|0"
  stream_data[1]: "http://edge-bauersefm-04-cr.sharp-stream.com/vinylfm_instream_se_mp3?|Vinyl 107|60's, 70's & 80's|SE|96|0"
  stream_data[2]: "http://media-ice.musicradio.com/SmoothLondonMP3|Smooth Radio|70s and 80s|EN|128|0"
  stream_data[3]: "http://stream.radiosport.sk:8000/Sport192.mp3|R\xc3\xa1dio \xc5\xa0port|80s and 90s|SK|192|0"
  stream_data[4]: "http://live-icy.gss.dr.dk:8000/A/A07H.mp3|DR 4 Fyn|Adult|DK|192|0"
  stream_data[5]: "http://live-icy.gss.dr.dk:8000/A/A29H.mp3|DR 6 Beat|Adult|DK|192|0"
- stream_data[6]: "http://bbcmedia.ic.llnwd.net/stream/bbcmedia_radio2_mf_p|BBC Radio 2|Adult|EN|128|0"
- stream_data[7]: "http://bbcmedia.ic.llnwd.net/stream/bbcmedia_6music_mf_p|BBC Radio 6 Music|Adult|EN|128|0"
+ stream_data[6]: "http://stream.live.vc.bbcmedia.co.uk/bbc_radio_two|BBC Radio 2|Adult|EN|128|0"
+ stream_data[7]: "http://stream.live.vc.bbcmedia.co.uk/bbc_6music|BBC Radio 6 Music|Adult|EN|128|0"
  stream_data[8]: "http://audiostream.rtl.be/contactfr|Radio Contact|Adult Contemporary|BE|128|0"
  stream_data[9]: "http://ice.abradio.cz/faktor128.mp3|Hitradio Faktor|Adult Contemporary|CZE|128|0"
  stream_data[10]: "http://icecast5.play.cz:8000/impuls128.mp3|R\xc3\xa1dio Impuls|Adult Contemporary|CZE|128|0"
@@ -53,7 +53,7 @@ live_stream_def : _nameless.1f0.a261.fcd0 {
  stream_data[48]: "http://ice-the.musicradio.com:80/RealXSManchesterMP3|Real Radio XS Manchester|Classic rock|EN|128|0"
  stream_data[49]: "http://stream.aligator.sk:8000/aligator_192.mp3|Radio Aligator Bratislava|Classic rock|SK|128|0"
  stream_data[50]: "http://live-icy.gss.dr.dk:8000/A/A04H.mp3|DR 2 Classic|Classical|DK|192|0"
- stream_data[51]: "http://bbcmedia.ic.llnwd.net/stream/bbcmedia_radio3_mf_p|BBC Radio 3|Classical|EN|128|0"
+ stream_data[51]: "http://stream.live.vc.bbcmedia.co.uk/bbc_radio_three|BBC Radio 3|Classical|EN|128|0"
  stream_data[52]: "http://stream.iradio.fi:8000/klasu-hi.mp3|Rondo Classic - Klasu|Classical|FI|128|0"
  stream_data[53]: "http://chai5she.cdn.dvmr.fr/francemusique-midfi.mp3|France Musique|Classical|FR|224|0"
  stream_data[54]: "http://lyd.nrk.no/nrk_radio_klassisk_mp3_h|NRK Klassisk|Classical|NO|192|0"
@@ -117,8 +117,8 @@ live_stream_def : _nameless.1f0.a261.fcd0 {
  stream_data[112]: "http://51.255.8.139:8738/stream|Metal Live Radio|Metal|PL|128|0"
  stream_data[113]: "http://185.86.150.69:8100/webradio|Pirate Rock|Metal|SE|128|0"
  stream_data[114]: "http://live-icy.gss.dr.dk:8000/A/A03H.mp3|DR 1|News|DK|192|0"
- stream_data[115]: "http://bbcmedia.ic.llnwd.net/stream/bbcmedia_radio4fm_mf_p|BBC Radio 4|News|EN|128|0"
- stream_data[116]: "http://bbcmedia.ic.llnwd.net/stream/bbcmedia_radio5live_mf_p|BBC Radio 5 Live|News|EN|128|0"
+ stream_data[115]: "http://stream.live.vc.bbcmedia.co.uk/bbc_radio_fourfm|BBC Radio 4|News|EN|128|0"
+ stream_data[116]: "http://stream.live.vc.bbcmedia.co.uk/bbc_radio_five_live_online_nonuk|BBC Radio 5 Live|News|EN|128|0"
  stream_data[117]: "http://lyd.nrk.no/nrk_radio_alltid_nyheter_mp3_h|NRK Alltid Nyheter|News|NO|192|0"
  stream_data[118]: "http://icecast8.play.cz/cro1-128.mp3|\xc4\x8cR Radio\xc5\xbeurn\xc3\xa1l|News and music|CZE|128|0"
  stream_data[119]: "http://nostalgiepremium.ice.infomaniak.ch/nostalgiepremium-128.mp3|Nostalgie BE|Oldies|BE|128|0"
@@ -266,7 +266,7 @@ live_stream_def : _nameless.1f0.a261.fcd0 {
  stream_data[261]: "http://www.radiobeograd.rs/download/radio202/dnevnik/dnevnik202.mp3|Beograd 202|Spoken|SRB|128|0"
  stream_data[262]: "http://ice.abradio.cz/fajn128.mp3|Fajn Radio|Top 40|CZE|128|1"
  stream_data[263]: "http://icecast8.play.cz/kisspublikum128.mp3|Kiss Ji\xc5\xben\xc3\xad \xc4\x8cechy|Top 40|CZE|128|0"
- stream_data[264]: "http://bbcmedia.ic.llnwd.net/stream/bbcmedia_radio1_mf_p|BBC Radio 1|Top 40|EN|128|0"
+ stream_data[264]: "http://stream.live.vc.bbcmedia.co.uk/bbc_radio_one|BBC Radio 1|Top 40|EN|128|0"
  stream_data[265]: "http://stream.p4.no/nrj_mp3_hq|NRJ Norway|Top 40|NO|192|0"
  stream_data[266]: "http://stream.p4.no/p5oslo_mp3_hq|P5 Hits|Top 40|NO|192|0"
  stream_data[267]: "http://dg-rb-http-fra-dtag-cdn.cast.addradio.de/rb/bremenvier/live/mp3/128/stream.mp3|Bremen Vier|Various|DE|128|0"
@@ -277,6 +277,11 @@ live_stream_def : _nameless.1f0.a261.fcd0 {
  stream_data[272]: "https://solarsoundsystem.org:8095/radio.mp3|Solar Sound System|Various|INT|320|0"
  stream_data[273]: "http://stream.dbmedia.se/crrMP3|Country Rocks Radio|Various|SE|128|0"
  stream_data[274]: "http://live-icy.gss.dr.dk:8000/A/A05H.mp3|DR 3|Young|DK|192|0"
+ stream_data[275]: "http://solid2.streamupsolutions.com:24953/stream|Elusive.fm|Trance|EN|192|0"
+ stream_data[276]: "http://stream.live.vc.bbcmedia.co.uk/bbc_world_service|BBC World Service|News|EN|128|0"
+ stream_data[277]: "http://stream.live.vc.bbcmedia.co.uk/bbc_1xtra|BBC Radio 1xtra|Hip Hop|EN|128|0"
+ stream_data[278]: "http://stream.live.vc.bbcmedia.co.uk/bbc_radio_four_extra|BBC Radio 4xtra|Comedy|EN|128|0"
+ stream_data[279]: "http://stream.live.vc.bbcmedia.co.uk/bbc_asian_network|BBC Radio Cymru|Music|EN|128|0"
 }
 
 }
