@@ -2,7 +2,26 @@
 
 [![Page Snapshot Badge](https://img.shields.io/date/1673998200?color=%23ffc500&label=PageSnapshot&logo=Fandom&logoColor=%23FA005A)](https://truck-simulator.fandom.com/wiki/Radio_Stations)
 
-[Additional notes](#additional-notes)
+## Table of Contents
+
+1. Radio stations grouped by countries
+   - [Azerbaijan](#azerbaijan)
+   - [Belgium](#belgium)
+   - [Canada](#canada)
+   - [Chile](#chile)
+   - [Denmark](#denmark)
+   - [France](#france)
+   - [New Zealand](#new-zealand)
+   - [Portugal](#portugal)
+   - [Spain](#spain)
+   - [Turkey](#turkey)
+   - [United Kingdom](#united-kingdom)
+2. [Default radio stations](#default-radio-stations)
+   - [EN](#en)
+3. [Additional notes](#additional-notes)
+   - [United Kingdom Notes](#united-kingdom-notes)
+
+---
 
 | Legend                    |                    |
 | ------------------------- | -----------------: |
@@ -10,22 +29,6 @@
 | Implemented to be checked |          :warning: |
 | Not yet Implemented       |        :hourglass: |
 | Not working               |       :red_circle: |
-
-## Countries list
-
-1. [Azerbaijan](#azerbaijan)
-2. [Belgium](#belgium)
-3. [Canada](#canada)
-4. [Chile](#chile)
-5. [Denmark](#denmark)
-6. [France](#france)
-7. [New Zealand](#new-zealand)
-8. [Portugal](#portugal)
-9. [Spain](#spain)
-10. [Turkey](#turkey)
-11. [United Kingdom](#united-kingdom)
-
----
 
 ## Azerbaijan
 
