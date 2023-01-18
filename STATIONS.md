@@ -11,11 +11,13 @@
    - [Chile](#chile)
    - [Denmark](#denmark)
    - [France](#france)
+   - [Lithuania](#lithuania)
    - [New Zealand](#new-zealand)
    - [Portugal](#portugal)
    - [Spain](#spain)
    - [Turkey](#turkey)
    - [United Kingdom](#united-kingdom)
+   - [United States](#united-states)
 2. [Default radio stations](#default-radio-stations)
    - [EN](#en)
 3. [Additional notes](#additional-notes)
@@ -102,6 +104,10 @@
 - :hourglass: Skyrock
 - :hourglass: Air Connect
 
+## Lithuania
+
+- :white_check_mark: Rock FM
+
 ## New Zealand
 
 - :hourglass: The Edge
@@ -161,6 +167,33 @@
 - :white_check_mark: BBC Radio 6 Music
 - :white_check_mark: BBC Radio Asian
 - :white_check_mark: BBC Radio Cymru
+- :white_check_mark: LBC
+- :white_check_mark: Smooth Radio
+- :red_circle: Star Cambridge
+- :red_circle: Swansea Sound
+- :red_circle: Nation Radio Cardiff
+- :red_circle: Classic Hits UK
+- :white_check_mark: Radio Caroline
+- :white_check_mark: Real Radio XS Manchester
+- :white_check_mark: 24-7 Rock 'N' Roll
+- :red_circle: Classic Hits UK
+- :white_check_mark: House Heads UK
+- :red_circle: The Arrow
+- :red_circle: Jack FM Oxford
+- :white_check_mark: Jazz London Radio
+- :white_check_mark: Radio Bloodstream
+- :red_circle: Felixstowe Radio
+- :red_circle: Kingdom FM
+
+## United States
+
+- :white_check_mark: 181.FM - The FrontPorch
+- :white_check_mark: 181.FM - 90's Country
+- :white_check_mark: 181.FM - Highway 181
+- :white_check_mark: 181.FM - Kickin' Country
+- :white_check_mark: 181.FM - Real Country
+- :white_check_mark: BigRig FM
+- :red_circle: Happenstance Radio
 
 ---
 
@@ -173,31 +206,7 @@ This is a list of default radio stations grouped by defined language. To be adde
 - :white_check_mark: 1.FM - Absolutely Country Hits
 - :white_check_mark: 1.FM - Classic Country
 - :white_check_mark: 1.FM - Country One
-- :white_check_mark: 181.FM - 90's Country
-- :white_check_mark: 181.FM - Highway 181
-- :white_check_mark: 181.FM - Kickin' Country
-- :white_check_mark: 181.FM - Real Country
-- :white_check_mark: 181.FM - The FrontPorch
-- :white_check_mark: 24-7 Rock 'N' Roll
-- :white_check_mark: BigRig FM
-- :red_circle: Classic Hits UK
-- :red_circle: Felixstowe Radio
-- :red_circle: Happenstance Radio
-- :white_check_mark: House Heads UK
-- :red_circle: Jack FM Oxford
-- :white_check_mark: Jazz London Radio
-- :red_circle: Kingdom FM
-- :white_check_mark: LBC
-- :red_circle: Nation Radio Cardiff
-- :white_check_mark: Radio Bloodstream
-- :white_check_mark: Radio Caroline
-- :white_check_mark: Real Radio XS Manchester
-- :white_check_mark: Rock FM
 - :white_check_mark: Simulator Radio
-- :white_check_mark: Smooth Radio
-- :red_circle: Star Cambridge
-- :red_circle: Swansea Sound
-- :red_circle: The Arrow
 - :white_check_mark: TruckSimFM
 - :white_check_mark: TruckersFM
 
