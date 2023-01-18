@@ -1,31 +1,43 @@
-## Status of radio stations
+# Status of radio stations
 
 [![Page Snapshot Badge](https://img.shields.io/date/1673998200?color=%23ffc500&label=PageSnapshot&logo=Fandom&logoColor=%23FA005A)](https://truck-simulator.fandom.com/wiki/Radio_Stations)
 
-| Legend   | |
-|----------|-------------:|
-|Implemented and checked|:white_check_mark:|
-|Implemented to be checked|:warning:|
-|Not yet Implemented|:hourglass:|
-|Not working|:red_circle:|
+[Additional notes](#additional-notes)
+
+| Legend                    |                    |
+| ------------------------- | -----------------: |
+| Implemented and checked   | :white_check_mark: |
+| Implemented to be checked |          :warning: |
+| Not yet Implemented       |        :hourglass: |
+| Not working               |       :red_circle: |
+
+## Countries list
+
+1. [Azerbaijan](#azerbaijan)
+2. [Belgium](#belgium)
+3. [Canada](#canada)
+4. [Chile](#chile)
+5. [Denmark](#denmark)
+6. [France](#france)
+7. [New Zealand](#new-zealand)
+8. [Portugal](#portugal)
+9. [Spain](#spain)
+10. [Turkey](#turkey)
+11. [United Kingdom](#united-kingdom)
 
 ---
 
-:exclamation: US based radio stations to be added later :exclamation:
-
----
-
-#### Azerbaijan
+## Azerbaijan
 
 - :hourglass: Anti Radio
 
-#### Belgium
+## Belgium
 
 - :hourglass: VRT MNM
 - :hourglass: VRT Radio 2
 - :hourglass: Studio Brussel
 
-#### Canada
+## Canada
 
 - :hourglass: CJAY 92
 - :hourglass: 98.5 Virgin Radio
@@ -43,7 +55,7 @@
 - :hourglass: Rock 101
 - :hourglass: 99.3 CFOX
 
-#### Chile
+## Chile
 
 - :hourglass: ADN Radio Chile
 - :hourglass: Agricultura
@@ -67,13 +79,13 @@
 - :hourglass: Universidad de Chile
 - :hourglass: Universo
 
-#### Denmark
+## Denmark
 
 - :hourglass: DR P3
 - :hourglass: DR P8 Jazz
 - :hourglass: DR P6 Beat
 
-#### France
+## France
 
 - :hourglass: Rire et Chansons
 - :hourglass: Fun Radio
@@ -87,7 +99,7 @@
 - :hourglass: Skyrock
 - :hourglass: Air Connect
 
-#### New Zealand
+## New Zealand
 
 - :hourglass: The Edge
 - :hourglass: ZM
@@ -106,14 +118,14 @@
 - :hourglass: Radio New Zealand Concert
 - :hourglass: Brian FM
 
-#### Portugal
+## Portugal
 
 - :hourglass: Radio Comercial
 - :hourglass: Nova Era
 - :hourglass: Mega Hits
 - :hourglass: Cidade FM
 
-#### Spain
+## Spain
 
 - :hourglass: Radio Nacional de España
 - :hourglass: La Raza Network Bandas
@@ -124,13 +136,13 @@
 - :hourglass: WGSP Latina 102.3 FM - North Carolina
 - :hourglass: WOLS La Raza 106.1 FM - North Carolina
 
-#### Turkey
+## Turkey
 
 - :hourglass: Virgin Radio Turkey
 - :hourglass: Number1 FM
 - :hourglass: PowerFM
 
-#### United Kingdom
+## United Kingdom
 
 - :red_circle: Elusive.fm
 - :red_circle: FlashOneFM
@@ -146,3 +158,15 @@
 - :white_check_mark: BBC Radio 6 Music
 - :white_check_mark: BBC Radio Asian
 - :white_check_mark: BBC Radio Cymru
+
+---
+
+## Additional notes
+
+:exclamation: US based radio stations to be added later :exclamation:
+
+### United Kingdom Notes
+
+- Elusive.fm :arrow_forward: not working
+- FlashOneFM :arrow_forward: not working
+- BBC Radio 5 Live Sports Extra :arrow_forward: UK only (I'm not able to check)
