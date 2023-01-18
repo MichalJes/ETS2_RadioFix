@@ -13,3 +13,11 @@ This project aims to create a one stop repository containing updated internet ra
     * You can copy the file to an external folder
     * You can also rename the file for example \[*live_streams.sii* :arrow_forward: *live_streams_BACKUP.sii*\]
 3. Replace the original file with the one downloaded from the project
+
+## Current status of the project
+
+* [ ] Implementing and checking all radio stations pulled from Fandom Wiki article
+  * [x] United Kingdom stations
+* [ ] Updating language codes in accordance with ISO 639-3
+  * [x] English stations
+  * [x] Lithuanian stations
