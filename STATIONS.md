@@ -32,8 +32,6 @@
 | Not yet Implemented       |        :hourglass: |
 | Not working               |       :red_circle: |
 
----
-
 ## Azerbaijan
 
 - :hourglass: Anti Radio
