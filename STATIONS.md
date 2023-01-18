@@ -163,7 +163,7 @@
 
 ## Default radio stations
 
-This is a list of default radio stations grouped by defined language
+This is a list of default radio stations grouped by defined language. To be added to corresponding countries.
 
 ### EN
 
