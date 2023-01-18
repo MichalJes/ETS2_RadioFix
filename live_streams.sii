@@ -1,7 +1,7 @@
 SiiNunit
 {
 live_stream_def : _nameless.1f0.a261.fcd0 {
- stream_data: 280
+ stream_data: 281
  stream_data[0]: "http://ice-the.musicradio.com:80/LBC973MP3Low|LBC||EN|0|0"
  stream_data[1]: "http://edge-bauersefm-04-cr.sharp-stream.com/vinylfm_instream_se_mp3?|Vinyl 107|60's, 70's & 80's|SE|96|0"
  stream_data[2]: "http://media-ice.musicradio.com/SmoothLondonMP3|Smooth Radio|70s and 80s|EN|128|0"
@@ -278,10 +278,11 @@ live_stream_def : _nameless.1f0.a261.fcd0 {
  stream_data[273]: "http://stream.dbmedia.se/crrMP3|Country Rocks Radio|Various|SE|128|0"
  stream_data[274]: "http://live-icy.gss.dr.dk:8000/A/A05H.mp3|DR 3|Young|DK|192|0"
  stream_data[275]: "http://solid2.streamupsolutions.com:24953/stream|Elusive.fm|Trance|EN|192|0"
- stream_data[276]: "http://stream.live.vc.bbcmedia.co.uk/bbc_world_service|BBC World Service|News|EN|128|0"
- stream_data[277]: "http://stream.live.vc.bbcmedia.co.uk/bbc_1xtra|BBC Radio 1xtra|Hip Hop|EN|128|0"
- stream_data[278]: "http://stream.live.vc.bbcmedia.co.uk/bbc_radio_four_extra|BBC Radio 4xtra|Comedy|EN|128|0"
- stream_data[279]: "http://stream.live.vc.bbcmedia.co.uk/bbc_asian_network|BBC Radio Cymru|Music|EN|128|0"
+ stream_data[276]: "http://wwcg.co.vu:8001/mp3|FlashOneFM|?|EN|128|0"
+ stream_data[277]: "http://stream.live.vc.bbcmedia.co.uk/bbc_world_service|BBC World Service|News|EN|128|0"
+ stream_data[278]: "http://stream.live.vc.bbcmedia.co.uk/bbc_1xtra|BBC Radio 1xtra|Hip Hop|EN|128|0"
+ stream_data[279]: "http://stream.live.vc.bbcmedia.co.uk/bbc_radio_four_extra|BBC Radio 4xtra|Comedy|EN|128|0"
+ stream_data[280]: "http://stream.live.vc.bbcmedia.co.uk/bbc_asian_network|BBC Radio Cymru|Music|EN|128|0"
 }
 
 }
