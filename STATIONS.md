@@ -6,7 +6,7 @@
 |----------|-------------:|
 |Implemented and checked|:white_check_mark:|
 |Implemented to be checked|:warning:|
-|Not yet Implemented|:question:|
+|Not yet Implemented|:hourglass:|
 |Not working|:red_circle:|
 
 ---
@@ -17,118 +17,118 @@
 
 #### Azerbaijan
 
-- :question: Anti Radio
+- :hourglass: Anti Radio
 
 #### Belgium
 
-- :question: VRT MNM
-- :question: VRT Radio 2
-- :question: Studio Brussel
+- :hourglass: VRT MNM
+- :hourglass: VRT Radio 2
+- :hourglass: Studio Brussel
 
 #### Canada
 
-- :question: CJAY 92
-- :question: 98.5 Virgin Radio
-- :question: 95.7 Cruz FM
-- :question: 100.3 The Bear
-- :question: 104.9 Virgin Radio
-- :question: Play 107.1
-- :question: 104.9 The Wolf
-- :question: OZ FM
-- :question: CKLU
-- :question: 99.9 Virgin Radio
-- :question: 94.5 Virgin Radio
-- :question: 93.9 Virgin Radio
-- :question: 101.7 The One
-- :question: Rock 101
-- :question: 99.3 CFOX
+- :hourglass: CJAY 92
+- :hourglass: 98.5 Virgin Radio
+- :hourglass: 95.7 Cruz FM
+- :hourglass: 100.3 The Bear
+- :hourglass: 104.9 Virgin Radio
+- :hourglass: Play 107.1
+- :hourglass: 104.9 The Wolf
+- :hourglass: OZ FM
+- :hourglass: CKLU
+- :hourglass: 99.9 Virgin Radio
+- :hourglass: 94.5 Virgin Radio
+- :hourglass: 93.9 Virgin Radio
+- :hourglass: 101.7 The One
+- :hourglass: Rock 101
+- :hourglass: 99.3 CFOX
 
 #### Chile
 
-- :question: ADN Radio Chile
-- :question: Agricultura
-- :question: RadioActiva
-- :question: Radio Beethoven
-- :question: Bío-Bío (Santiago)
-- :question: Bío-Bío (Valparaíso)
-- :question: Concierto
-- :question: Cooperativa
-- :question: Corazón
-- :question: Radio Disney (Chile)
-- :question: Duna FM
-- :question: El Conquistador
-- :question: FMDOS
-- :question: FM Tiempo
-- :question: Futuro
-- :question: Imagina
-- :question: Los 40 (Chile)
-- :question: Pudahuel
-- :question: Rock & Pop
-- :question: Universidad de Chile
-- :question: Universo
+- :hourglass: ADN Radio Chile
+- :hourglass: Agricultura
+- :hourglass: RadioActiva
+- :hourglass: Radio Beethoven
+- :hourglass: Bío-Bío (Santiago)
+- :hourglass: Bío-Bío (Valparaíso)
+- :hourglass: Concierto
+- :hourglass: Cooperativa
+- :hourglass: Corazón
+- :hourglass: Radio Disney (Chile)
+- :hourglass: Duna FM
+- :hourglass: El Conquistador
+- :hourglass: FMDOS
+- :hourglass: FM Tiempo
+- :hourglass: Futuro
+- :hourglass: Imagina
+- :hourglass: Los 40 (Chile)
+- :hourglass: Pudahuel
+- :hourglass: Rock & Pop
+- :hourglass: Universidad de Chile
+- :hourglass: Universo
 
 #### Denmark
 
-- :question: DR P3
-- :question: DR P8 Jazz
-- :question: DR P6 Beat
+- :hourglass: DR P3
+- :hourglass: DR P8 Jazz
+- :hourglass: DR P6 Beat
 
 #### France
 
-- :question: Rire et Chansons
-- :question: Fun Radio
-- :question: Fréquence 3
-- :question: NRJ France
-- :question: Chérie FM France
-- :question: Nostalgie France
-- :question: RFM
-- :question: RTL
-- :question: RTL 2 France
-- :question: Skyrock
-- :question: Air Connect
+- :hourglass: Rire et Chansons
+- :hourglass: Fun Radio
+- :hourglass: Fréquence 3
+- :hourglass: NRJ France
+- :hourglass: Chérie FM France
+- :hourglass: Nostalgie France
+- :hourglass: RFM
+- :hourglass: RTL
+- :hourglass: RTL 2 France
+- :hourglass: Skyrock
+- :hourglass: Air Connect
 
 #### New Zealand
 
-- :question: The Edge
-- :question: ZM
-- :question: The Hits
-- :question: Mai FM
-- :question: Flava
-- :question: The Breeze
-- :question: The Rock
-- :question: Radio Hauraki
-- :question: The Sound
-- :question: Radio Live
-- :question: Radio New Zealand National
-- :question: Newstalk ZB
-- :question: Radio Sport
-- :question: LiveSPORT Radio
-- :question: Radio New Zealand Concert
-- :question: Brian FM
+- :hourglass: The Edge
+- :hourglass: ZM
+- :hourglass: The Hits
+- :hourglass: Mai FM
+- :hourglass: Flava
+- :hourglass: The Breeze
+- :hourglass: The Rock
+- :hourglass: Radio Hauraki
+- :hourglass: The Sound
+- :hourglass: Radio Live
+- :hourglass: Radio New Zealand National
+- :hourglass: Newstalk ZB
+- :hourglass: Radio Sport
+- :hourglass: LiveSPORT Radio
+- :hourglass: Radio New Zealand Concert
+- :hourglass: Brian FM
 
 #### Portugal
 
-- :question: Radio Comercial
-- :question: Nova Era
-- :question: Mega Hits
-- :question: Cidade FM
+- :hourglass: Radio Comercial
+- :hourglass: Nova Era
+- :hourglass: Mega Hits
+- :hourglass: Cidade FM
 
 #### Spain
 
-- :question: Radio Nacional de España
-- :question: La Raza Network Bandas
-- :question: La Raza Charleston
-- :question: La Raza Network Cumbias
-- :question: La Raza Network Moviditas
-- :question: La Raza Network Norteñas
-- :question: WGSP Latina 102.3 FM - North Carolina
-- :question: WOLS La Raza 106.1 FM - North Carolina
+- :hourglass: Radio Nacional de España
+- :hourglass: La Raza Network Bandas
+- :hourglass: La Raza Charleston
+- :hourglass: La Raza Network Cumbias
+- :hourglass: La Raza Network Moviditas
+- :hourglass: La Raza Network Norteñas
+- :hourglass: WGSP Latina 102.3 FM - North Carolina
+- :hourglass: WOLS La Raza 106.1 FM - North Carolina
 
 #### Turkey
 
-- :question: Virgin Radio Turkey
-- :question: Number1 FM
-- :question: PowerFM
+- :hourglass: Virgin Radio Turkey
+- :hourglass: Number1 FM
+- :hourglass: PowerFM
 
 #### United Kingdom
 
