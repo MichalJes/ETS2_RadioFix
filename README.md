@@ -1,4 +1,4 @@
-# ETS2_RadioUpdate
+# ETS2_RadioFix
 
 You can check current status of implementation here: [Stations status](STATIONS.md)
 
