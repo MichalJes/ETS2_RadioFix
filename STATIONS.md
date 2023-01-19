@@ -36,9 +36,12 @@
 
 ## Belgium
 
-- :hourglass: VRT MNM
-- :hourglass: VRT Radio 2
-- :hourglass: Studio Brussel
+- :white_check_mark: VRT MNM
+- :white_check_mark: VRT Radio 2
+- :white_check_mark: Studio Brussel
+- :red_circle: Instrumentals Forever
+- :red_circle: Nostalgie BE
+- :white_check_mark: Q-Music
 
 ## Canada
 
