@@ -1,19 +1,19 @@
 SiiNunit
 {
 live_stream_def : _nameless.294.f89b.cca0 {
- stream_data: 282
+ stream_data: 283
  stream_data[0]: "http://www.radioproton.at:8000/proton|Radio Proton|Funk|AT|128|0"
  stream_data[1]: "http://streamplus18.leonex.de:22810/;41812521032989stream.nsv|Stahlradio|Metal|AT|128|0"
  stream_data[2]: "http://live.antenne.at/arr|Austrian Rock Radio|Rock|AT|128|0"
  stream_data[3]: "http://radio.autoliferadio.com:8000/radio|AutoLife Azerbaijan|Rock|AZE|128|0"
- stream_data[4]: "http://audiostream.rtl.be/contactfr|Radio Contact|Adult Contemporary|BE|128|0"
- stream_data[5]: "http://lb.zenfm.be/zenfm.mp3|Zen FM|Chill|BE|128|0"
+ stream_data[4]: "http://audiostream.rtl.be/contactfr|Radio Contact|Adult Contemporary|FRA|128|0"
+ stream_data[5]: "http://lb.zenfm.be/zenfm.mp3|Zen FM|Chill|NLD|128|0"
  stream_data[6]: "http://agnes.torontocast.com:8151/stream|Instrumentals Forever|Instrumental|BE|128|0"
  stream_data[7]: "http://nostalgiepremium.ice.infomaniak.ch/nostalgiepremium-128.mp3|Nostalgie BE|Oldies|BE|128|0"
- stream_data[8]: "http://icecast.vrtcdn.be/mnm-high.mp3|MNM|Pop|BE|128|0"
- stream_data[9]: "http://icecast-qmusic.cdp.triple-it.nl/Qmusic_be_live_96.mp3|Q-Music|Pop|BE|96|0"
- stream_data[10]: "http://icecast.vrtcdn.be/ra2wvl-high.mp3|Radio 2|Pop|BE|64|0"
- stream_data[11]: "http://arabelfm.ice.infomaniak.ch/arabelprodcastfm.mp3|AraBel|Spoken|BE|128|0"
+ stream_data[8]: "http://icecast.vrtcdn.be/mnm-high.mp3|VRT MNM|Pop|NLD|128|0"
+ stream_data[9]: "http://22733.live.streamtheworld.com/QMUSIC.mp3|Q-Music|Pop|NLD|96|0"
+ stream_data[10]: "http://icecast.vrtcdn.be/ra2wvl-high.mp3|VRT Radio 2|Pop|NLD|64|0"
+ stream_data[11]: "http://arabelfm.ice.infomaniak.ch/arabelprodcastfm.mp3|AraBel|Spoken|FRA|128|0"
  stream_data[12]: "http://193.108.24.21:8000/fmplus|FM+|Adult contemporary|BG|128|0"
  stream_data[13]: "http://193.108.24.21:8000/fresh|Fresh|Adult contemporary|BG|128|0"
  stream_data[14]: "http://stream.radioreklama.bg/city64|City|Pop|BG|128|0"
@@ -283,7 +283,8 @@ live_stream_def : _nameless.294.f89b.cca0 {
  stream_data[278]: "http://109.206.96.12:8000/|Radio TOP FM Beograd|Pop|SRB|128|0"
  stream_data[279]: "http://www.radiobeograd.rs/download/radio202/dnevnik/dnevnik202.mp3|Beograd 202|Spoken|SRB|128|0"
  stream_data[280]: "http://online-radioroks.tavrmedia.ua:7000/RadioROKS|RadioRoks|Rock|UA|128|0"
- stream_data[281]: "http://78.129.163.140:8070/|EKR Rock Radio|Rock|UK|128|0"
+ stream_data[281]: "http://78.129.163.140:8070/|EKR Rock Radio|Rock|ENG|128|0"
+ stream_data[282]: "http://icecast.vrtcdn.be/stubru-high.mp3|Studio Brussel|Pop|NLD|128|0"
 }
 
 }
