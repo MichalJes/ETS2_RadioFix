@@ -304,8 +304,7 @@
 - ✅ Angels Radio
 - 🔴 Bloomberg Radio 960 AM
 - ✅ Bolly 92.3
-- 🔴 CapRadio - Classical 
-FM 88.7 88.9 90.9 91.7
+- 🔴 CapRadio - Classical  FM 88.7 88.9 90.9 91.7
 - 🔴 CapRadio - Music KXPR-FM
 - 🔴 CapRadio - News KXJZ-FM  FM 88.1 90.5 90.9 91.3
 - 🔴 CapRadio-Jazz
@@ -320,8 +319,7 @@ FM 88.7 88.9 90.9 91.7
 - 🔴 Energy 95.3
 - ✅ Ethereal Radio
 - 🔴 Exitos 107.1
-- 🔴 Fuego 103.5 & 98.9 KHHM
-FM 101.9 103.5
+- 🔴 Fuego 103.5 & 98.9 KHHM FM 101.9 103.5
 - ✅ GBC 1190 AM
 - 🔴 Got Radio Alternative
 - 🔴 Got Radio Big Band Land
@@ -361,8 +359,7 @@ FM 101.9 103.5
 - 🔴 KEZJ
 - 🔴 KFAX 1100 AM
 - ✅ KFCF FM 88.1
-- 🔴 KFRR FM 104.1
-It Just Rocks
+- 🔴 KFRR FM 104.1 It Just Rocks
 - 🔴 KGED Talk Radio 1680 AM
 - 🔴 KGEO 101.1 FM ESPN Bakersfield
 - 🔴 KGFM 101.5 FM
@@ -372,8 +369,7 @@ It Just Rocks
 - 🔴 KHAY
 - 🔴 KHDR 96.9 FM The Drive
 - ✅ KID News Radio
-- ✅ KJAY
-AM 1430 FM 98.1
+- ✅ KJAY AM 1430 FM 98.1
 - 🔴 KKOH
 - ✅ KKXA 1520 AM
 - 🔴 KLIX
@@ -397,8 +393,7 @@ AM 1430 FM 98.1
 - ✅ KUZZ AM 55/FM 107.9
 - 🔴 KVTO 93.7 FM
 - ✅ KXLU 88.9 FM
-- ✅ KXPR
-Cap Radio Music
+- ✅ KXPR Cap Radio Music
 - ✅ KXRY X-RAY 91.1 FM
 - ✅ KXSF 102.5 FM
 - 🔴 KYRK 106.5 FM
@@ -422,17 +417,15 @@ Cap Radio Music
 - 🔴 RFC Alternative Hits #3
 - 🔴 Radio K
 - 🔴 Radio Lazer 102.9
-- ✅ Radio Santisimo Sacramento KCVV 
-AM 1240 FM 95.7
-- ✅ Sacramento's K-ZAP KZHP-FM 93.3|
+- ✅ Radio Santisimo Sacramento KCVV  AM 1240 FM 95.7
+- ✅ Sacramento's K-ZAP KZHP-FM 93.3
 - ✅ Saint John Paul II Catholic Radio FM
 - 🔴 Saints Channel Music
 - ✅ The Blaze Radio Network
 - 🔴 The Groove 99.3
 - 🔴 The Hugh Hewitt Show
 - ✅ The Kaleidophonics Radio Network
-- ✅ The Zephyr KZFR-FM 
-FM 90.1
+- ✅ The Zephyr KZFR-FM  FM 90.1
 - 🔴 U Radio 690 AM
 - 🔴 WAME Legends 550 AM
 - 🔴 WEQX 102.7

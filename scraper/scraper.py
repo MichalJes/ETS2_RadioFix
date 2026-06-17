@@ -17,30 +17,76 @@ FANDOM_API = (
     "?action=parse&page=Radio_Stations&prop=wikitext&format=json"
 )
 
+# ISO 639-3 language codes (all uppercase 3-letter)
+# Includes full names, native names in parens, ISO 639-1 (2-letter) and ISO 639-2/B aliases
 LANGUAGE_TO_ISO = {
-    "english": "ENG", "dutch": "NLD", "french": "FRA", "german": "DEU",
-    "polish": "POL", "czech": "CZE", "slovak": "SVK", "hungarian": "HUN",
-    "romanian": "RON", "bulgarian": "BUL", "russian": "RUS", "ukrainian": "UKR",
-    "lithuanian": "LIT", "latvian": "LAV", "estonian": "EST", "finnish": "FIN",
-    "swedish": "SWE", "norwegian": "NOR", "danish": "DAN", "icelandic": "ISL",
-    "spanish": "SPA", "portuguese": "POR", "italian": "ITA", "croatian": "HRV",
-    "serbian": "SRB", "macedonian": "MKD", "turkish": "TUR", "azerbaijani": "AZE",
-    "filipino": "FIL", "tagalog": "FIL", "various": "INT", "international": "INT",
-    "multiple": "INT",
+    # English
+    "english": "ENG", "en": "ENG",
+    # West Germanic
+    "dutch": "NLD", "nl": "NLD",
+    "german": "DEU", "german (deutsche)": "DEU", "ger": "DEU", "de": "DEU",
+    "afrikaans": "AFR",
+    # Romance
+    "french": "FRA", "french (français)": "FRA", "fre": "FRA", "fr": "FRA",
+    "spanish": "SPA", "es": "SPA",
+    "portuguese": "POR", "pt": "POR",
+    "italian": "ITA", "it": "ITA",
+    "romanian": "RON", "ro": "RON",
+    "catalan": "CAT",
+    # Slavic
+    "polish": "POL", "pl": "POL",
+    "czech": "CES", "cze": "CES", "cz": "CES",
+    "slovak": "SLK", "svk": "SLK", "sk": "SLK",
+    "bulgarian": "BUL", "bg": "BUL",
+    "russian": "RUS", "ru": "RUS",
+    "ukrainian": "UKR", "uk": "UKR",
+    "serbian": "SRP", "srb": "SRP", "sr": "SRP",
+    "croatian": "HRV", "croatian (hrvatski)": "HRV", "cro": "HRV", "hr": "HRV",
+    "macedonian": "MKD", "mac": "MKD", "mk": "MKD",
+    "bosnian": "BOS",
+    "slovenian": "SLV", "sl": "SLV",
+    # Baltic
+    "lithuanian": "LIT", "lt": "LIT",
+    "latvian": "LAV", "lv": "LAV",
+    # Finno-Ugric
+    "estonian": "EST", "et": "EST",
+    "finnish": "FIN", "fi": "FIN",
+    "hungarian": "HUN", "hu": "HUN",
+    # North Germanic
+    "swedish": "SWE", "sv": "SWE",
+    "norwegian": "NOR", "no": "NOR",
+    "danish": "DAN", "da": "DAN",
+    "icelandic": "ISL", "is": "ISL",
+    # Turkic
+    "turkish": "TUR", "tr": "TUR",
+    "azerbaijani": "AZE", "az": "AZE",
+    # Asian
+    "korean": "KOR", "ko": "KOR",
+    "chinese": "ZHO", "zh": "ZHO", "chi": "ZHO",
+    "japanese": "JPN", "ja": "JPN",
+    "punjabi": "PAN", "pun": "PAN",
+    "hindi": "HIN",
+    "arabic": "ARA",
+    # Philippine
+    "filipino": "FIL", "tagalog": "FIL", "filipino (tagalog)": "FIL", "fil": "FIL",
+    # Catch-all
+    "various": "MUL", "international": "MUL", "multiple": "MUL", "mul": "MUL",
 }
 
-COUNTRY_TO_ISO = {
-    "azerbaijan": "AZE", "belgium": "BEL", "canada": "CAN", "chile": "CHL",
-    "croatia": "HRV", "czechia": "CZE", "czech republic": "CZE", "denmark": "DEN",
+# Maps country name → primary language ISO 639-3 code
+# Used as fallback when a station's language field is missing or unrecognised
+COUNTRY_TO_LANG = {
+    "azerbaijan": "AZE", "belgium": "NLD", "canada": "ENG", "chile": "SPA",
+    "croatia": "HRV", "czechia": "CES", "czech republic": "CES", "denmark": "DAN",
     "france": "FRA", "germany": "DEU", "iceland": "ISL", "italy": "ITA",
-    "latvia": "LAV", "lithuania": "LIT", "luxembourg": "LUX", "netherlands": "NLD",
-    "norway": "NOR", "poland": "POL", "portugal": "POR", "romania": "ROU",
-    "russia": "RUS", "serbia": "SRB", "slovakia": "SVK", "spain": "ESP",
-    "sweden": "SWE", "switzerland": "CHE", "turkey": "TUR", "türkiye": "TUR",
-    "ukraine": "UKR", "united kingdom": "GBR", "united states": "USA",
-    "north macedonia": "MKD", "new zealand": "NZL", "philippines": "PHL",
-    "estonia": "EST", "finland": "FIN", "austria": "AUT", "hungary": "HUN",
-    "bulgaria": "BGR",
+    "latvia": "LAV", "lithuania": "LIT", "luxembourg": "FRA", "netherlands": "NLD",
+    "norway": "NOR", "poland": "POL", "portugal": "POR", "romania": "RON",
+    "russia": "RUS", "serbia": "SRP", "slovakia": "SLK", "spain": "SPA",
+    "sweden": "SWE", "switzerland": "DEU", "turkey": "TUR", "türkiye": "TUR",
+    "ukraine": "UKR", "united kingdom": "ENG", "united states": "ENG",
+    "north macedonia": "MKD", "new zealand": "ENG", "philippines": "FIL",
+    "estonia": "EST", "finland": "FIN", "austria": "DEU", "hungary": "HUN",
+    "bulgaria": "BUL",
 }
 
 
@@ -96,9 +142,15 @@ def _sanitise_field(value: str) -> str:
 
 def _resolve_lang(language: str, country: str) -> str:
     lang = language.lower().strip()
-    if lang in ("?", "", "unknown", "n/a"):
-        return COUNTRY_TO_ISO.get(country.lower(), "INT")
-    return LANGUAGE_TO_ISO.get(lang, lang[:3].upper())
+    if lang in ("?", "", "unknown", "n/a", "various", "mul"):
+        return COUNTRY_TO_LANG.get(country.lower(), "MUL")
+    # Try full string first (handles "German (Deutsche)" etc.)
+    code = LANGUAGE_TO_ISO.get(lang)
+    if code:
+        return code
+    # Strip parenthetical native name: "French (Français)" → "french"
+    base = re.sub(r"\s*\(.*?\)", "", lang).strip()
+    return LANGUAGE_TO_ISO.get(base, "MUL")
 
 
 def _parse_bitrate(value: str) -> int:
