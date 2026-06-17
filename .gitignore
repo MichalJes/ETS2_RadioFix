@@ -1,1 +1,4 @@
 PageSnapshot.html
+.vscode
+temp__pycache__/
+*.pyc
