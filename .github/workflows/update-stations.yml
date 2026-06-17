@@ -1,0 +1,39 @@
+name: Update radio stations
+
+on:
+  schedule:
+    # Runs every other Monday at 03:00 UTC (biweekly)
+    - cron: "0 3 1,15 * *"
+  workflow_dispatch: # allow manual trigger from GitHub UI
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Run scraper
+        run: python scraper/main.py
+
+      - name: Check for changes
+        id: changes
+        run: |
+          git diff --quiet live_streams.sii STATIONS.md VALIDATION.md \
+            && echo "changed=false" >> $GITHUB_OUTPUT \
+            || echo "changed=true" >> $GITHUB_OUTPUT
+
+      - name: Commit and push updated files
+        if: steps.changes.outputs.changed == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add live_streams.sii STATIONS.md VALIDATION.md
+          git commit -m "Auto-update radio stations $(date -u '+%Y-%m-%d')"
+          git push
