@@ -1,13 +1,4 @@
 PageSnapshot.html
 .vscode
-__pycache__/
+temp__pycache__/
 *.pyc
-*.pyo
-
-# Secrets / credentials
-.env
-.env.*
-*.key
-*.pem
-secrets.json
-config.local.*
