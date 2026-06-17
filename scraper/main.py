@@ -7,16 +7,18 @@ sys.path.insert(0, os.path.dirname(__file__))
 
 from scraper import fetch_stations
 from validator import validate
-from formatter import write_sii, write_report
+from formatter import write_sii, write_report, write_stations_md
 
 DEFAULT_OUT = os.path.join(os.path.dirname(__file__), "..", "live_streams.sii")
 DEFAULT_REPORT = os.path.join(os.path.dirname(__file__), "..", "VALIDATION.md")
+DEFAULT_STATIONS = os.path.join(os.path.dirname(__file__), "..", "STATIONS.md")
 
 
 def main():
     parser = argparse.ArgumentParser(description="ETS2 Radio station scraper & validator")
     parser.add_argument("--output", default=DEFAULT_OUT, help="Path to output .sii file")
     parser.add_argument("--report", default=DEFAULT_REPORT, help="Path to validation report .md")
+    parser.add_argument("--stations", default=DEFAULT_STATIONS, help="Path to STATIONS.md")
     parser.add_argument("--no-validate", action="store_true", help="Skip stream URL validation")
     parser.add_argument("--country", help="Filter to a single country (e.g. 'Poland')")
     args = parser.parse_args()
@@ -45,6 +47,11 @@ def main():
         report_path = os.path.abspath(args.report)
         write_report(alive, dead, report_path)
         print(f"  Report written: {report_path}")
+
+        stations_path = os.path.abspath(args.stations)
+        write_stations_md(alive, dead, stations_path)
+        print(f"  Stations status written: {stations_path}")
+
         stations = alive
     else:
         print("Skipping validation.")
