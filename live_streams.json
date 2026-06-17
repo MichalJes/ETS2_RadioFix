@@ -1,0 +1,2540 @@
+[
+  {
+    "index": 0,
+    "url": "http://www.radioproton.at:8000/proton",
+    "name": "Radio Proton",
+    "genre": "Funk",
+    "country_code": "AT",
+    "bit_rate": 128,
+    "playing": 0
+  },
+  {
+    "index": 1,
+    "url": "http://streamplus18.leonex.de:22810/;41812521032989stream.nsv",
+    "name": "Stahlradio",
+    "genre": "Metal",
+    "country_code": "AT",
+    "bit_rate": 128,
+    "playing": 0
+  },
+  {
+    "index": 2,
+    "url": "http://live.antenne.at/arr",
+    "name": "Austrian Rock Radio",
+    "genre": "Rock",
+    "country_code": "AT",
+    "bit_rate": 128,
+    "playing": 0
+  },
+  {
+    "index": 3,
+    "url": "http://radio.autoliferadio.com:8000/radio",
+    "name": "AutoLife Azerbaijan",
+    "genre": "Rock",
+    "country_code": "AZE",
+    "bit_rate": 128,
+    "playing": 0
+  },
+  {
+    "index": 4,
+    "url": "http://audiostream.rtl.be/contactfr",
+    "name": "Radio Contact",
+    "genre": "Adult Contemporary",
+    "country_code": "BE",
+    "bit_rate": 128,
+    "playing": 0
+  },
+  {
+    "index": 5,
+    "url": "http://lb.zenfm.be/zenfm.mp3",
+    "name": "Zen FM",
+    "genre": "Chill",
+    "country_code": "BE",
+    "bit_rate": 128,
+    "playing": 0
+  },
+  {
+    "index": 6,
+    "url": "http://agnes.torontocast.com:8151/stream",
+    "name": "Instrumentals Forever",
+    "genre": "Instrumental",
+    "country_code": "BE",
+    "bit_rate": 128,
+    "playing": 0
+  },
+  {
+    "index": 7,
+    "url": "http://nostalgiepremium.ice.infomaniak.ch/nostalgiepremium-128.mp3",
+    "name": "Nostalgie BE",
+    "genre": "Oldies",
+    "country_code": "BE",
+    "bit_rate": 128,
+    "playing": 0
+  },
+  {
+    "index": 8,
+    "url": "http://icecast.vrtcdn.be/mnm-high.mp3",
+    "name": "MNM",
+    "genre": "Pop",
+    "country_code": "BE",
+    "bit_rate": 128,
+    "playing": 0
+  },
+  {
+    "index": 9,
+    "url": "http://icecast-qmusic.cdp.triple-it.nl/Qmusic_be_live_96.mp3",
+    "name": "Q-Music",
+    "genre": "Pop",
+    "country_code": "BE",
+    "bit_rate": 96,
+    "playing": 0
+  },
+  {
+    "index": 10,
+    "url": "http://icecast.vrtcdn.be/ra2wvl-high.mp3",
+    "name": "Radio 2",
+    "genre": "Pop",
+    "country_code": "BE",
+    "bit_rate": 64,
+    "playing": 0
+  },
+  {
+    "index": 11,
+    "url": "http://arabelfm.ice.infomaniak.ch/arabelprodcastfm.mp3",
+    "name": "AraBel",
+    "genre": "Spoken",
+    "country_code": "BE",
+    "bit_rate": 128,
+    "playing": 0
+  },
+  {
+    "index": 12,
+    "url": "http://193.108.24.21:8000/fmplus",
+    "name": "FM+",
+    "genre": "Adult contemporary",
+    "country_code": "BG",
+    "bit_rate": 128,
+    "playing": 0
+  },
+  {
+    "index": 13,
+    "url": "http://193.108.24.21:8000/fresh",
+    "name": "Fresh",
+    "genre": "Adult contemporary",
+    "country_code": "BG",
+    "bit_rate": 128,
+    "playing": 0
+  },
+  {
+    "index": 14,
+    "url": "http://stream.radioreklama.bg/city64",
+    "name": "City",
+    "genre": "Pop",
+    "country_code": "BG",
+    "bit_rate": 128,
+    "playing": 0
+  },
+  {
+    "index": 15,
+    "url": "http://89.106.110.85:8000/",
+    "name": "Vidin",
+    "genre": "Spoken",
+    "country_code": "BG",
+    "bit_rate": 128,
+    "playing": 0
+  },
+  {
+    "index": 16,
+    "url": "http://ice.abradio.cz/fajn128.mp3",
+    "name": "Fajn Radio",
+    "genre": "Top 40",
+    "country_code": "CZE",
+    "bit_rate": 128,
+    "playing": 0
+  },
+  {
+    "index": 17,
+    "url": "http://ice.abradio.cz/faktor128.mp3",
+    "name": "Hitradio Faktor",
+    "genre": "Adult Contemporary",
+    "country_code": "CZE",
+    "bit_rate": 128,
+    "playing": 0
+  },
+  {
+    "index": 18,
+    "url": "http://icecast5.play.cz:8000/impuls128.mp3",
+    "name": "R\\xc3\\xa1dio Impuls",
+    "genre": "Adult Contemporary",
+    "country_code": "CZE",
+    "bit_rate": 128,
+    "playing": 0
+  },
+  {
+    "index": 19,
+    "url": "http://icecast3.play.cz/frekvence1-128.mp3",
+    "name": "Frekvence 1",
+    "genre": "Adult contemporary",
+    "country_code": "CZE",
+    "bit_rate": 128,
+    "playing": 0
+  },
+  {
+    "index": 20,
+    "url": "http://icecast5.play.cz/radiobeat128.mp3",
+    "name": "R\\xc3\\xa1dio Beat",
+    "genre": "Classic rock",
+    "country_code": "CZE",
+    "bit_rate": 128,
+    "playing": 0
+  },
+  {
+    "index": 21,
+    "url": "http://icecast2.play.cz:8000/country64.mp3",
+    "name": "Country Radio",
+    "genre": "Country",
+    "country_code": "CZE",
+    "bit_rate": 64,
+    "playing": 0
+  },
+  {
+    "index": 22,
+    "url": "http://radio-streamhosting.com:8006/192mp3",
+    "name": "Radio Gothic",
+    "genre": "Metal",
+    "country_code": "CZE",
+    "bit_rate": 160,
+    "playing": 0
+  },
+  {
+    "index": 23,
+    "url": "http://icecast8.play.cz/cro1-128.mp3",
+    "name": "\\xc4\\x8cR Radio\\xc5\\xbeurn\\xc3\\xa1l",
+    "genre": "News and music",
+    "country_code": "CZE",
+    "bit_rate": 128,
+    "playing": 0
+  },
+  {
+    "index": 24,
+    "url": "http://icecast3.play.cz/evropa2-128.mp3",
+    "name": "Evropa 2",
+    "genre": "Pop",
+    "country_code": "CZE",
+    "bit_rate": 128,
+    "playing": 0
+  },
+  {
+    "index": 25,
+    "url": "http://icecast5.play.cz/rockzone128.mp3",
+    "name": "Rock Zone Prague",
+    "genre": "Rock",
+    "country_code": "CZE",
+    "bit_rate": 128,
+    "playing": 0
+  },
+  {
+    "index": 26,
+    "url": "http://icecast8.play.cz/kisspublikum128.mp3",
+    "name": "Kiss Ji\\xc5\\xben\\xc3\\xad \\xc4\\x8cechy",
+    "genre": "Top 40",
+    "country_code": "CZE",
+    "bit_rate": 128,
+    "playing": 0
+  },
+  {
+    "index": 27,
+    "url": "http://streaming.radiodresden.de/radio-dresden_simulcast_192k_mp3",
+    "name": "Radio Dresden",
+    "genre": "Adult contemporary",
+    "country_code": "DE",
+    "bit_rate": 128,
+    "playing": 0
+  },
+  {
+    "index": 28,
+    "url": "http://edge.live.mp3.mdn.newmedia.nacamar.net/ps-radioduisburg/livestream.mp3",
+    "name": "Radio Duisburg",
+    "genre": "Adult contemporary",
+    "country_code": "DE",
+    "bit_rate": 128,
+    "playing": 0
+  },
+  {
+    "index": 29,
+    "url": "http://164.132.13.80:5070/stream",
+    "name": "Volksmusik Pur",
+    "genre": "Folk",
+    "country_code": "DE",
+    "bit_rate": 128,
+    "playing": 0
+  },
+  {
+    "index": 30,
+    "url": "http://rock-high.rautemusik.fm/Musik.Rock",
+    "name": "RauteMusik.FM Rock Mannheim",
+    "genre": "Indie rock",
+    "country_code": "DE",
+    "bit_rate": 192,
+    "playing": 0
+  },
+  {
+    "index": 31,
+    "url": "http://rs2.myradio24.de:8410/stream",
+    "name": "Oldie Party Radio",
+    "genre": "Oldies",
+    "country_code": "DE",
+    "bit_rate": 128,
+    "playing": 0
+  },
+  {
+    "index": 32,
+    "url": "http://edge.live.mp3.mdn.newmedia.nacamar.net/ps-antennedus/livestream.mp3",
+    "name": "Antenne Dusseldorf",
+    "genre": "Pop",
+    "country_code": "DE",
+    "bit_rate": 128,
+    "playing": 0
+  },
+  {
+    "index": 33,
+    "url": "http://antenne-nds.hoerradar.de/mp3-128_antenne-nds?sABC=539977o2%230%239ro337348or8q5s4p35216po832392p1%23yvfgrayvir-rh",
+    "name": "Antenne Niedersachsen",
+    "genre": "Pop",
+    "country_code": "DE",
+    "bit_rate": 128,
+    "playing": 0
+  },
+  {
+    "index": 34,
+    "url": "http://mp3stream7.apasf.apa.at:8000/;stream.nsv",
+    "name": "Hitradio \\xc3\\x963",
+    "genre": "Pop",
+    "country_code": "DE",
+    "bit_rate": 128,
+    "playing": 0
+  },
+  {
+    "index": 35,
+    "url": "http://onair-ha1.krone.at/kronehit-hp.mp3",
+    "name": "KroneHit 105.8",
+    "genre": "Pop",
+    "country_code": "DE",
+    "bit_rate": 128,
+    "playing": 0
+  },
+  {
+    "index": 36,
+    "url": "http://stream.laut.fm/techliveradio",
+    "name": "TechLiveRadio",
+    "genre": "Pop",
+    "country_code": "DE",
+    "bit_rate": 128,
+    "playing": 0
+  },
+  {
+    "index": 37,
+    "url": "http://delta.hoerradar.de/deltaradio128?sABC=5onpr3p9%230%23o9939067432n8rn899o33645r84sr202%23enqvbfher&amsparams=playerid:radiosure;skey:1538057161",
+    "name": "Delta Radio Kiel",
+    "genre": "Rock",
+    "country_code": "DE",
+    "bit_rate": 128,
+    "playing": 0
+  },
+  {
+    "index": 38,
+    "url": "http://dieneue1077.cast.addradio.de/dieneue1077/rock/high/stream.mp3",
+    "name": "Die Neue 107.7 Stuttgart",
+    "genre": "Rock",
+    "country_code": "DE",
+    "bit_rate": 128,
+    "playing": 0
+  },
+  {
+    "index": 39,
+    "url": "http://mp3.ffh.de/ffhchannels/hqrock.mp3",
+    "name": "FFH Rock Frankfurt",
+    "genre": "Rock",
+    "country_code": "DE",
+    "bit_rate": 128,
+    "playing": 0
+  },
+  {
+    "index": 40,
+    "url": "http://leinehertz01.htp.net:8000",
+    "name": "LeineHertz Hannover",
+    "genre": "Rock",
+    "country_code": "DE",
+    "bit_rate": 128,
+    "playing": 0
+  },
+  {
+    "index": 41,
+    "url": "http://bob.hoerradar.de/radiobob-live-mp3-hq?sABC=5onpr06o%230%23o9939067432n8rn899o33645r84sr202%23&amsparams=playerid:;skey:1538056299",
+    "name": "Radio Bob Kassel",
+    "genre": "Rock",
+    "country_code": "DE",
+    "bit_rate": 128,
+    "playing": 0
+  },
+  {
+    "index": 42,
+    "url": "http://str2.creacast.com/sudtirol1a",
+    "name": "Radio S\\xc3\\xbcdtirol",
+    "genre": "Rock",
+    "country_code": "DE",
+    "bit_rate": 128,
+    "playing": 0
+  },
+  {
+    "index": 43,
+    "url": "http://live96.106acht.de:80",
+    "name": "Rock n Pop Hamburg",
+    "genre": "Rock",
+    "country_code": "DE",
+    "bit_rate": 128,
+    "playing": 0
+  },
+  {
+    "index": 44,
+    "url": "http://85.25.209.152/berlin.mp3",
+    "name": "Star FM Berlin",
+    "genre": "Rock",
+    "country_code": "DE",
+    "bit_rate": 128,
+    "playing": 0
+  },
+  {
+    "index": 45,
+    "url": "http://stream.laut.fm/simliveradio",
+    "name": "SimLiveRadio",
+    "genre": "Sim radio",
+    "country_code": "DE",
+    "bit_rate": 128,
+    "playing": 0
+  },
+  {
+    "index": 46,
+    "url": "http://stream.laut.fm/simulator1",
+    "name": "simulatorONE",
+    "genre": "Sim radio",
+    "country_code": "DE",
+    "bit_rate": 128,
+    "playing": 0
+  },
+  {
+    "index": 47,
+    "url": "http://dg-mdr-http-fra-dtag-cdn.cast.addradio.de/mdr/284290/0/mp3/high/stream.mp3",
+    "name": "MDR1 Magdeburg",
+    "genre": "Spoken",
+    "country_code": "DE",
+    "bit_rate": 128,
+    "playing": 0
+  },
+  {
+    "index": 48,
+    "url": "http://dg-rb-http-fra-dtag-cdn.cast.addradio.de/rb/bremenvier/live/mp3/128/stream.mp3",
+    "name": "Bremen Vier",
+    "genre": "Various",
+    "country_code": "DE",
+    "bit_rate": 128,
+    "playing": 0
+  },
+  {
+    "index": 49,
+    "url": "http://live-icy.gss.dr.dk:8000/A/A07H.mp3",
+    "name": "DR 4 Fyn",
+    "genre": "Adult",
+    "country_code": "DK",
+    "bit_rate": 192,
+    "playing": 0
+  },
+  {
+    "index": 50,
+    "url": "http://live-icy.gss.dr.dk:8000/A/A29H.mp3",
+    "name": "DR 6 Beat",
+    "genre": "Adult",
+    "country_code": "DK",
+    "bit_rate": 192,
+    "playing": 0
+  },
+  {
+    "index": 51,
+    "url": "http://live-icy.gss.dr.dk:8000/A/A21H.mp3",
+    "name": "DR P7 Mix",
+    "genre": "Adult contemporary",
+    "country_code": "DK",
+    "bit_rate": 192,
+    "playing": 0
+  },
+  {
+    "index": 52,
+    "url": "http://streaming.fynskemedier.dk/vlr",
+    "name": "VLR",
+    "genre": "Adult contemporary",
+    "country_code": "DK",
+    "bit_rate": 128,
+    "playing": 0
+  },
+  {
+    "index": 53,
+    "url": "http://live-icy.gss.dr.dk:8000/A/A25H.mp3",
+    "name": "DR 5",
+    "genre": "Alternative",
+    "country_code": "DK",
+    "bit_rate": 192,
+    "playing": 0
+  },
+  {
+    "index": 54,
+    "url": "http://live-icy.gss.dr.dk:8000/A/A04H.mp3",
+    "name": "DR 2 Classic",
+    "genre": "Classical",
+    "country_code": "DK",
+    "bit_rate": 192,
+    "playing": 0
+  },
+  {
+    "index": 55,
+    "url": "http://live-icy.gss.dr.dk/A/A22H.mp3",
+    "name": "DR P8 JAZZ",
+    "genre": "Jazz",
+    "country_code": "DK",
+    "bit_rate": 128,
+    "playing": 0
+  },
+  {
+    "index": 56,
+    "url": "http://live-icy.gss.dr.dk:8000/A/A03H.mp3",
+    "name": "DR 1",
+    "genre": "News",
+    "country_code": "DK",
+    "bit_rate": 192,
+    "playing": 0
+  },
+  {
+    "index": 57,
+    "url": "http://streammp3.retro-radio.dk/retro-mp3",
+    "name": "Retro Radio",
+    "genre": "Oldies",
+    "country_code": "DK",
+    "bit_rate": 128,
+    "playing": 0
+  },
+  {
+    "index": 58,
+    "url": "http://stream.popfm.dk/pop128",
+    "name": "Pop FM",
+    "genre": "Pop",
+    "country_code": "DK",
+    "bit_rate": 128,
+    "playing": 0
+  },
+  {
+    "index": 59,
+    "url": "http://onair.100fmlive.dk/100fm_live.mp3",
+    "name": "Radio 100FM",
+    "genre": "Pop",
+    "country_code": "DK",
+    "bit_rate": 128,
+    "playing": 0
+  },
+  {
+    "index": 60,
+    "url": "http://stream.wlmm.dk/stream/54/",
+    "name": "Radio SLR",
+    "genre": "Rock",
+    "country_code": "DK",
+    "bit_rate": 128,
+    "playing": 0
+  },
+  {
+    "index": 61,
+    "url": "http://stream.myrock.fm/myrock128",
+    "name": "myROCK",
+    "genre": "Rock",
+    "country_code": "DK",
+    "bit_rate": 128,
+    "playing": 0
+  },
+  {
+    "index": 62,
+    "url": "http://live-icy.gss.dr.dk:8000/A/A05H.mp3",
+    "name": "DR 3",
+    "genre": "Young",
+    "country_code": "DK",
+    "bit_rate": 192,
+    "playing": 0
+  },
+  {
+    "index": 63,
+    "url": "http://icecast.omroep.nl/rtvnoord-bb-mp3",
+    "name": "Radio Noord Groningen",
+    "genre": "Spoken",
+    "country_code": "Dutch",
+    "bit_rate": 128,
+    "playing": 0
+  },
+  {
+    "index": 64,
+    "url": "http://ice-the.musicradio.com:80/LBC973MP3Low",
+    "name": "LBC",
+    "genre": "",
+    "country_code": "ENG",
+    "bit_rate": 0,
+    "playing": 0
+  },
+  {
+    "index": 65,
+    "url": "http://media-ice.musicradio.com/SmoothLondonMP3",
+    "name": "Smooth Radio",
+    "genre": "70s and 80s",
+    "country_code": "ENG",
+    "bit_rate": 128,
+    "playing": 0
+  },
+  {
+    "index": 66,
+    "url": "http://bbcmedia.ic.llnwd.net/stream/bbcmedia_radio2_mf_p",
+    "name": "BBC Radio 2",
+    "genre": "Adult",
+    "country_code": "ENG",
+    "bit_rate": 128,
+    "playing": 0
+  },
+  {
+    "index": 67,
+    "url": "http://bbcmedia.ic.llnwd.net/stream/bbcmedia_6music_mf_p",
+    "name": "BBC Radio 6 Music",
+    "genre": "Adult",
+    "country_code": "ENG",
+    "bit_rate": 128,
+    "playing": 0
+  },
+  {
+    "index": 68,
+    "url": "http://starradio.nsdsl.net/128K",
+    "name": "Star Cambridge",
+    "genre": "Adult contemporary",
+    "country_code": "ENG",
+    "bit_rate": 128,
+    "playing": 0
+  },
+  {
+    "index": 69,
+    "url": "http://gbradio.cdn.tibus.net/SWASS",
+    "name": "Swansea Sound",
+    "genre": "Adult contemporary",
+    "country_code": "ENG",
+    "bit_rate": 0,
+    "playing": 0
+  },
+  {
+    "index": 70,
+    "url": "http://icy-e-04.sharp-stream.com/tcnation.mp3",
+    "name": "Nation Radio Cardiff",
+    "genre": "Alternative rock",
+    "country_code": "ENG",
+    "bit_rate": 128,
+    "playing": 0
+  },
+  {
+    "index": 71,
+    "url": "http://relay.181.fm:8016",
+    "name": "181.FM - The FrontPorch",
+    "genre": "Bluegrass",
+    "country_code": "USA",
+    "bit_rate": 64,
+    "playing": 0
+  },
+  {
+    "index": 72,
+    "url": "http://soho.wavestreamer.com:4845/stream/1/",
+    "name": "Classic Hits UK",
+    "genre": "Classic hits",
+    "country_code": "ENG",
+    "bit_rate": 0,
+    "playing": 0
+  },
+  {
+    "index": 73,
+    "url": "http://78.129.202.200:8000/;",
+    "name": "Radio Caroline",
+    "genre": "Classic hits",
+    "country_code": "ENG",
+    "bit_rate": 0,
+    "playing": 0
+  },
+  {
+    "index": 74,
+    "url": "http://ice-the.musicradio.com:80/RealXSManchesterMP3",
+    "name": "Real Radio XS Manchester",
+    "genre": "Classic rock",
+    "country_code": "ENG",
+    "bit_rate": 128,
+    "playing": 0
+  },
+  {
+    "index": 75,
+    "url": "http://bbcmedia.ic.llnwd.net/stream/bbcmedia_radio3_mf_p",
+    "name": "BBC Radio 3",
+    "genre": "Classical",
+    "country_code": "ENG",
+    "bit_rate": 128,
+    "playing": 0
+  },
+  {
+    "index": 76,
+    "url": "http://205.164.62.22:7800",
+    "name": "1.FM - Absolutely Country Hits",
+    "genre": "Country",
+    "country_code": "ENG",
+    "bit_rate": 128,
+    "playing": 0
+  },
+  {
+    "index": 77,
+    "url": "http://205.164.62.22:7806",
+    "name": "1.FM - Classic Country",
+    "genre": "Country",
+    "country_code": "ENG",
+    "bit_rate": 128,
+    "playing": 0
+  },
+  {
+    "index": 78,
+    "url": "http://strm112.1.fm/country_mobile_mp3",
+    "name": "1.FM - Country One",
+    "genre": "Country",
+    "country_code": "ENG",
+    "bit_rate": 128,
+    "playing": 0
+  },
+  {
+    "index": 79,
+    "url": "http://relay.181.fm:8050",
+    "name": "181.FM - 90's Country",
+    "genre": "Country",
+    "country_code": "ENG",
+    "bit_rate": 128,
+    "playing": 0
+  },
+  {
+    "index": 80,
+    "url": "http://relay.181.fm:8018",
+    "name": "181.FM - Highway 181",
+    "genre": "Country",
+    "country_code": "ENG",
+    "bit_rate": 128,
+    "playing": 0
+  },
+  {
+    "index": 81,
+    "url": "http://relay.181.fm:8130",
+    "name": "181.FM - Kickin' Country",
+    "genre": "Country",
+    "country_code": "ENG",
+    "bit_rate": 128,
+    "playing": 0
+  },
+  {
+    "index": 82,
+    "url": "http://relay.181.fm:8034",
+    "name": "181.FM - Real Country",
+    "genre": "Country",
+    "country_code": "ENG",
+    "bit_rate": 128,
+    "playing": 0
+  },
+  {
+    "index": 83,
+    "url": "https://radio.bigrig.fm/",
+    "name": "BigRig FM",
+    "genre": "Country",
+    "country_code": "ENG",
+    "bit_rate": 320,
+    "playing": 0
+  },
+  {
+    "index": 84,
+    "url": "http://s36.myradiostream.com:13028/;listen.mp3",
+    "name": "House Heads UK",
+    "genre": "House",
+    "country_code": "ENG",
+    "bit_rate": 0,
+    "playing": 0
+  },
+  {
+    "index": 85,
+    "url": "http://bbcmedia.ic.llnwd.net/stream/bbcmedia_radio4fm_mf_p",
+    "name": "BBC Radio 4",
+    "genre": "News",
+    "country_code": "ENG",
+    "bit_rate": 128,
+    "playing": 0
+  },
+  {
+    "index": 86,
+    "url": "http://bbcmedia.ic.llnwd.net/stream/bbcmedia_radio5live_mf_p",
+    "name": "BBC Radio 5 Live",
+    "genre": "News",
+    "country_code": "ENG",
+    "bit_rate": 128,
+    "playing": 0
+  },
+  {
+    "index": 87,
+    "url": "http://stream8.considerit.co.uk/kingdomfm128.mp3",
+    "name": "Kingdom FM",
+    "genre": "Oldies",
+    "country_code": "ENG",
+    "bit_rate": 0,
+    "playing": 0
+  },
+  {
+    "index": 88,
+    "url": "http://feed.felixstoweradio.co.uk:8000/FXR",
+    "name": "Felixstowe Radio",
+    "genre": "Pop",
+    "country_code": "ENG",
+    "bit_rate": 128,
+    "playing": 0
+  },
+  {
+    "index": 89,
+    "url": "https://19993.live.streamtheworld.com/JACK_FM.mp3",
+    "name": "Jack FM Oxford",
+    "genre": "Pop",
+    "country_code": "ENG",
+    "bit_rate": 128,
+    "playing": 0
+  },
+  {
+    "index": 90,
+    "url": "http://24-7nicheradio.com:8130/stream",
+    "name": "24-7 Rock 'N' Roll",
+    "genre": "Rock",
+    "country_code": "ENG",
+    "bit_rate": 112,
+    "playing": 0
+  },
+  {
+    "index": 91,
+    "url": "http://albireo.shoutca.st:9937/stream",
+    "name": "Happenstance Radio",
+    "genre": "Rock",
+    "country_code": "ENG",
+    "bit_rate": 320,
+    "playing": 0
+  },
+  {
+    "index": 92,
+    "url": "http://radio.canstream.co.uk:8075/live.mp3",
+    "name": "Jazz London Radio",
+    "genre": "Rock",
+    "country_code": "ENG",
+    "bit_rate": 0,
+    "playing": 0
+  },
+  {
+    "index": 93,
+    "url": "http://uk1.internet-radio.com:8294/stream",
+    "name": "Radio Bloodstream",
+    "genre": "Rock",
+    "country_code": "ENG",
+    "bit_rate": 128,
+    "playing": 0
+  },
+  {
+    "index": 94,
+    "url": "http://5.20.223.18/crf128.mp3",
+    "name": "Rock FM",
+    "genre": "Rock",
+    "country_code": "LIT",
+    "bit_rate": 0,
+    "playing": 0
+  },
+  {
+    "index": 95,
+    "url": "http://ice-sov.musicradio.com/ArrowMP3",
+    "name": "The Arrow",
+    "genre": "Rock",
+    "country_code": "ENG",
+    "bit_rate": 128,
+    "playing": 0
+  },
+  {
+    "index": 96,
+    "url": "http://stream.simulatorradio.com:8002/stream.mp3",
+    "name": "Simulator Radio",
+    "genre": "Sim radio",
+    "country_code": "ENG",
+    "bit_rate": 128,
+    "playing": 0
+  },
+  {
+    "index": 97,
+    "url": "http://radio.trucksim.fm:8000/stream",
+    "name": "TruckSimFM",
+    "genre": "Sim radio",
+    "country_code": "ENG",
+    "bit_rate": 320,
+    "playing": 0
+  },
+  {
+    "index": 98,
+    "url": "https://radio.truckers.fm/",
+    "name": "TruckersFM",
+    "genre": "Sim radio",
+    "country_code": "ENG",
+    "bit_rate": 320,
+    "playing": 0
+  },
+  {
+    "index": 99,
+    "url": "http://bbcmedia.ic.llnwd.net/stream/bbcmedia_radio1_mf_p",
+    "name": "BBC Radio 1",
+    "genre": "Top 40",
+    "country_code": "ENG",
+    "bit_rate": 128,
+    "playing": 0
+  },
+  {
+    "index": 100,
+    "url": "http://solid2.streamupsolutions.com:24953/stream",
+    "name": "Elusive.fm",
+    "genre": "Trance",
+    "country_code": "ENG",
+    "bit_rate": 192,
+    "playing": 0
+  },
+  {
+    "index": 101,
+    "url": "http://wwcg.co.vu:8001/mp3",
+    "name": "FlashOneFM",
+    "genre": "?",
+    "country_code": "ENG",
+    "bit_rate": 128,
+    "playing": 0
+  },
+  {
+    "index": 102,
+    "url": "http://stream.live.vc.bbcmedia.co.uk/bbc_world_service",
+    "name": "BBC World Service",
+    "genre": "News",
+    "country_code": "ENG",
+    "bit_rate": 128,
+    "playing": 0
+  },
+  {
+    "index": 103,
+    "url": "http://stream.live.vc.bbcmedia.co.uk/bbc_1xtra",
+    "name": "BBC Radio 1xtra",
+    "genre": "Hip Hop",
+    "country_code": "ENG",
+    "bit_rate": 128,
+    "playing": 0
+  },
+  {
+    "index": 104,
+    "url": "http://stream.live.vc.bbcmedia.co.uk/bbc_radio_four_extra",
+    "name": "BBC Radio 4xtra",
+    "genre": "Comedy",
+    "country_code": "ENG",
+    "bit_rate": 128,
+    "playing": 0
+  },
+  {
+    "index": 105,
+    "url": "http://stream.live.vc.bbcmedia.co.uk/bbc_asian_network",
+    "name": "BBC Asian Network",
+    "genre": "Music",
+    "country_code": "ENG",
+    "bit_rate": 128,
+    "playing": 0
+  },
+  {
+    "index": 106,
+    "url": "http://stream.live.vc.bbcmedia.co.uk/bbc_radio_cymru",
+    "name": "BBC Radio Cymru",
+    "genre": "Music",
+    "country_code": "ENG",
+    "bit_rate": 128,
+    "playing": 0
+  },
+  {
+    "index": 107,
+    "url": "http://www.netiraadio.ee:8000/teistsugune",
+    "name": "Netiraadio - Teistsugne",
+    "genre": "Alternative rock",
+    "country_code": "EST",
+    "bit_rate": 128,
+    "playing": 0
+  },
+  {
+    "index": 108,
+    "url": "http://nrj.babahhcdn.com/NRJ",
+    "name": "NRJ Estonia",
+    "genre": "Dance",
+    "country_code": "EST",
+    "bit_rate": 128,
+    "playing": 0
+  },
+  {
+    "index": 109,
+    "url": "http://retro.babahhcdn.com/RETRO",
+    "name": "Retro FM",
+    "genre": "Oldies",
+    "country_code": "EST",
+    "bit_rate": 128,
+    "playing": 0
+  },
+  {
+    "index": 110,
+    "url": "http://icecast.err.ee:80/raadio2.mp3",
+    "name": "Raadio 2",
+    "genre": "Pop",
+    "country_code": "EST",
+    "bit_rate": 128,
+    "playing": 0
+  },
+  {
+    "index": 111,
+    "url": "http://striiming.trio.ee/elmar.mp3",
+    "name": "Raadio Elmar",
+    "genre": "Pop",
+    "country_code": "EST",
+    "bit_rate": 128,
+    "playing": 0
+  },
+  {
+    "index": 112,
+    "url": "http://skyplus.babahhcdn.com/SKYPLUS",
+    "name": "SkyPlus",
+    "genre": "Pop",
+    "country_code": "EST",
+    "bit_rate": 128,
+    "playing": 0
+  },
+  {
+    "index": 113,
+    "url": "http://87.110.219.34:8000/spinmp3",
+    "name": "Spin FM",
+    "genre": "Pop",
+    "country_code": "EST",
+    "bit_rate": 128,
+    "playing": 0
+  },
+  {
+    "index": 114,
+    "url": "http://striiming.trio.ee:8008/myhits.mp3",
+    "name": "Raadio Uuno",
+    "genre": "Rock",
+    "country_code": "EST",
+    "bit_rate": 128,
+    "playing": 0
+  },
+  {
+    "index": 115,
+    "url": "http://icecast.err.ee/raadio2.mp3",
+    "name": "ERR Raadio 2",
+    "genre": "Various",
+    "country_code": "EST",
+    "bit_rate": 128,
+    "playing": 0
+  },
+  {
+    "index": 116,
+    "url": "http://icecast.err.ee/raadio4madal.mp3",
+    "name": "Raadio 4",
+    "genre": "Various",
+    "country_code": "EST",
+    "bit_rate": 128,
+    "playing": 0
+  },
+  {
+    "index": 117,
+    "url": "http://hear.fi:8000/hear.mp3",
+    "name": "Radio Hear",
+    "genre": "Adult Contemporary",
+    "country_code": "FI",
+    "bit_rate": 128,
+    "playing": 0
+  },
+  {
+    "index": 118,
+    "url": "http://stream.iradio.fi:8000/klasu-hi.mp3",
+    "name": "Rondo Classic - Klasu",
+    "genre": "Classical",
+    "country_code": "FI",
+    "bit_rate": 128,
+    "playing": 0
+  },
+  {
+    "index": 119,
+    "url": "http://185.52.127.131/fi/35059/mp3_128.mp3",
+    "name": "Radio Nostalgia",
+    "genre": "Oldies",
+    "country_code": "FI",
+    "bit_rate": 128,
+    "playing": 0
+  },
+  {
+    "index": 120,
+    "url": "http://185.52.127.131/fi/35061/mp3_128.mp3",
+    "name": "NRJ Suomihitit",
+    "genre": "Pop",
+    "country_code": "FI",
+    "bit_rate": 128,
+    "playing": 0
+  },
+  {
+    "index": 121,
+    "url": "http://149.202.196.92:8238/;stream.nsv",
+    "name": "RQL",
+    "genre": "Rock",
+    "country_code": "FI",
+    "bit_rate": 128,
+    "playing": 0
+  },
+  {
+    "index": 122,
+    "url": "http://stream.basso.fi:8000/stream",
+    "name": "Bassoradio",
+    "genre": "Various",
+    "country_code": "FI",
+    "bit_rate": 128,
+    "playing": 0
+  },
+  {
+    "index": 123,
+    "url": "http://77.86.233.1:8000/;",
+    "name": "Radio Helsinki",
+    "genre": "Various",
+    "country_code": "FI",
+    "bit_rate": 128,
+    "playing": 0
+  },
+  {
+    "index": 124,
+    "url": "http://broadcast.infomaniak.net/virageradio-high.mp3",
+    "name": "Virage Lyon",
+    "genre": "Adult contemporary",
+    "country_code": "FR",
+    "bit_rate": 128,
+    "playing": 0
+  },
+  {
+    "index": 125,
+    "url": "http://broadcast.infomaniak.ch/ouifm-high.mp3",
+    "name": "Oui FM Paris",
+    "genre": "Alternative",
+    "country_code": "FR",
+    "bit_rate": 128,
+    "playing": 0
+  },
+  {
+    "index": 126,
+    "url": "http://audiostream.rtl.be/mint",
+    "name": "Mint FM",
+    "genre": "Alternative rock",
+    "country_code": "FR",
+    "bit_rate": 128,
+    "playing": 0
+  },
+  {
+    "index": 127,
+    "url": "http://chai5she.cdn.dvmr.fr/francemusique-midfi.mp3",
+    "name": "France Musique",
+    "genre": "Classical",
+    "country_code": "FR",
+    "bit_rate": 224,
+    "playing": 0
+  },
+  {
+    "index": 128,
+    "url": "http://94.23.40.70:8010/",
+    "name": "Radio METAL",
+    "genre": "Metal",
+    "country_code": "FR",
+    "bit_rate": 128,
+    "playing": 0
+  },
+  {
+    "index": 129,
+    "url": "http://streaming.hotmix-radio.net/hotmixradio-80-128.mp3",
+    "name": "80s Music HotMixRadio",
+    "genre": "Oldies",
+    "country_code": "FR",
+    "bit_rate": 128,
+    "playing": 0
+  },
+  {
+    "index": 130,
+    "url": "http://rfm-live-mp3-128.scdn.arkena.com/rfm.mp3",
+    "name": "RFM",
+    "genre": "Oldies",
+    "country_code": "FR",
+    "bit_rate": 128,
+    "playing": 0
+  },
+  {
+    "index": 131,
+    "url": "http://directfm.ice.infomaniak.ch/directfm-128.mp3",
+    "name": "Direct FM Metz",
+    "genre": "Pop",
+    "country_code": "FR",
+    "bit_rate": 128,
+    "playing": 0
+  },
+  {
+    "index": 132,
+    "url": "http://185.52.127.155/fr/30001/mp3_128.mp3?origine=fluxradios",
+    "name": "NRJ France",
+    "genre": "Pop",
+    "country_code": "FR",
+    "bit_rate": 0,
+    "playing": 0
+  },
+  {
+    "index": 133,
+    "url": "http://streaming.radio.rtl2.fr/rtl2-1-44-96",
+    "name": "RTL 2 Calais",
+    "genre": "Pop",
+    "country_code": "FR",
+    "bit_rate": 64,
+    "playing": 0
+  },
+  {
+    "index": 134,
+    "url": "http://str0.creacast.com/topmusic1",
+    "name": "Top Music Strasbourg",
+    "genre": "Pop",
+    "country_code": "FR",
+    "bit_rate": 128,
+    "playing": 0
+  },
+  {
+    "index": 135,
+    "url": "http://mp3lg4.tdf-cdn.com/9243/lag_164753.mp3",
+    "name": "Virgin Radio",
+    "genre": "Pop",
+    "country_code": "FR",
+    "bit_rate": 128,
+    "playing": 0
+  },
+  {
+    "index": 136,
+    "url": "http://icecast.skyrock.net/s/natio_mp3_128k",
+    "name": "Skyrock",
+    "genre": "Rock",
+    "country_code": "FR",
+    "bit_rate": 0,
+    "playing": 0
+  },
+  {
+    "index": 137,
+    "url": "http://185.52.127.159/fr/30621/mp3_128.mp3?origine=fluxradios",
+    "name": "Nostalgie Rock",
+    "genre": "Rock'n'Roll",
+    "country_code": "FR",
+    "bit_rate": 128,
+    "playing": 0
+  },
+  {
+    "index": 138,
+    "url": "http://chai5she.cdn.dvmr.fr/fb1071-midfi.mp3",
+    "name": "France Bleu",
+    "genre": "Spoken",
+    "country_code": "FR",
+    "bit_rate": 128,
+    "playing": 0
+  },
+  {
+    "index": 139,
+    "url": "http://95.81.146.2/franceinfo/all/franceinfo.mp3",
+    "name": "France Info",
+    "genre": "Spoken",
+    "country_code": "FR",
+    "bit_rate": 64,
+    "playing": 0
+  },
+  {
+    "index": 140,
+    "url": "http://chai5she.cdn.dvmr.fr/franceinter-midfi.mp3",
+    "name": "France Inter",
+    "genre": "Spoken",
+    "country_code": "FR",
+    "bit_rate": 128,
+    "playing": 0
+  },
+  {
+    "index": 141,
+    "url": "http://chai5she.cdn.dvmr.fr/rmcinfo",
+    "name": "RMC",
+    "genre": "Spoken",
+    "country_code": "FR",
+    "bit_rate": 64,
+    "playing": 0
+  },
+  {
+    "index": 142,
+    "url": "http://sc2.dubplate.fm:5000/DnB/192",
+    "name": "Dubplate.fm - Drum & Bass",
+    "genre": "D'n'B",
+    "country_code": "INT",
+    "bit_rate": 192,
+    "playing": 0
+  },
+  {
+    "index": 143,
+    "url": "http://sc2.dubplate.fm:5000/DnB/64",
+    "name": "Dubplate.fm - Drum & Bass",
+    "genre": "D'n'B",
+    "country_code": "INT",
+    "bit_rate": 64,
+    "playing": 0
+  },
+  {
+    "index": 144,
+    "url": "http://sc2.dubplate.fm:5000/dubstep/192",
+    "name": "Dubplate.fm - Dubstep",
+    "genre": "Dubstep",
+    "country_code": "INT",
+    "bit_rate": 192,
+    "playing": 0
+  },
+  {
+    "index": 145,
+    "url": "http://sc2.dubplate.fm:5000/dubstep/64",
+    "name": "Dubplate.fm - Dubstep",
+    "genre": "Dubstep",
+    "country_code": "INT",
+    "bit_rate": 64,
+    "playing": 0
+  },
+  {
+    "index": 146,
+    "url": "http://sc2.dubplate.fm:5000/Electro/192",
+    "name": "Dubplate.fm - Urban Electro",
+    "genre": "Electro",
+    "country_code": "INT",
+    "bit_rate": 192,
+    "playing": 0
+  },
+  {
+    "index": 147,
+    "url": "http://sc2.dubplate.fm:5000/electro/64",
+    "name": "Dubplate.fm - Urban Electro",
+    "genre": "Electro",
+    "country_code": "INT",
+    "bit_rate": 64,
+    "playing": 0
+  },
+  {
+    "index": 148,
+    "url": "http://fire1.neradio.com/",
+    "name": "NERadio House & Trance",
+    "genre": "House",
+    "country_code": "INT",
+    "bit_rate": 192,
+    "playing": 0
+  },
+  {
+    "index": 149,
+    "url": "http://sc-eldolive.newmedia.lu/;stream.nvs",
+    "name": "EldoRadio Luxembourg",
+    "genre": "Pop",
+    "country_code": "INT",
+    "bit_rate": 128,
+    "playing": 0
+  },
+  {
+    "index": 150,
+    "url": "https://solarsoundsystem.org:8095/radio.mp3",
+    "name": "Solar Sound System",
+    "genre": "Various",
+    "country_code": "INT",
+    "bit_rate": 320,
+    "playing": 0
+  },
+  {
+    "index": 151,
+    "url": "http://onair20.xdevel.com:8018/;stream.mp3",
+    "name": "Radio Margherita Giovane",
+    "genre": "Local Music",
+    "country_code": "IT",
+    "bit_rate": 64,
+    "playing": 0
+  },
+  {
+    "index": 152,
+    "url": "http://nr6.newradio.it:8010/stream.mp3",
+    "name": "Lolli Radio Italia",
+    "genre": "Local Music",
+    "country_code": "IT",
+    "bit_rate": 96,
+    "playing": 0
+  },
+  {
+    "index": 153,
+    "url": "http://wma02.fluidstream.net:2250/;",
+    "name": "Radio Sorrriso",
+    "genre": "Local Music",
+    "country_code": "IT",
+    "bit_rate": 48,
+    "playing": 0
+  },
+  {
+    "index": 154,
+    "url": "http://wma01.fluidstream.net:7140/;",
+    "name": "Radio Italia Anni 60",
+    "genre": "Oldies",
+    "country_code": "IT",
+    "bit_rate": 128,
+    "playing": 0
+  },
+  {
+    "index": 155,
+    "url": "http://46.37.20.205:8000/ds2",
+    "name": "Dimensione Suono Due",
+    "genre": "Pop",
+    "country_code": "IT",
+    "bit_rate": 48,
+    "playing": 0
+  },
+  {
+    "index": 156,
+    "url": "http://ice07.fluidstream.net/lovefm.mp3",
+    "name": "Love FM",
+    "genre": "Pop",
+    "country_code": "IT",
+    "bit_rate": 128,
+    "playing": 0
+  },
+  {
+    "index": 157,
+    "url": "http://icestreaming.rai.it/4.mp3",
+    "name": "RAI R4 Light",
+    "genre": "Rock",
+    "country_code": "IT",
+    "bit_rate": 96,
+    "playing": 0
+  },
+  {
+    "index": 158,
+    "url": "http://media-sov.musicradio.com/ChillMP3",
+    "name": "DrChill",
+    "genre": "Chill",
+    "country_code": "LT",
+    "bit_rate": 128,
+    "playing": 0
+  },
+  {
+    "index": 159,
+    "url": "http://netradio.ziniur.lt/easyfm.mp3",
+    "name": "Easy FM",
+    "genre": "Jazz",
+    "country_code": "LT",
+    "bit_rate": 128,
+    "playing": 0
+  },
+  {
+    "index": 160,
+    "url": "http://stream.manofm.lt/listen?",
+    "name": "Mano FM",
+    "genre": "Pop",
+    "country_code": "LT",
+    "bit_rate": 128,
+    "playing": 0
+  },
+  {
+    "index": 161,
+    "url": "http://5.20.223.18/rrb128.mp3",
+    "name": "RUSRADIO LT",
+    "genre": "Pop",
+    "country_code": "LT",
+    "bit_rate": 128,
+    "playing": 0
+  },
+  {
+    "index": 162,
+    "url": "http://5.20.223.18/relaxfm128.mp3",
+    "name": "Relax FM",
+    "genre": "Pop",
+    "country_code": "LT",
+    "bit_rate": 128,
+    "playing": 0
+  },
+  {
+    "index": 163,
+    "url": "http://78.157.82.110:8000//;",
+    "name": "Beveik Radijas",
+    "genre": "Rock",
+    "country_code": "LT",
+    "bit_rate": 128,
+    "playing": 0
+  },
+  {
+    "index": 164,
+    "url": "http://radijas2.vu.lt:8000/startfm.mp3",
+    "name": "Start FM",
+    "genre": "Rock",
+    "country_code": "LT",
+    "bit_rate": 128,
+    "playing": 0
+  },
+  {
+    "index": 165,
+    "url": "http://netradio.ziniur.lt/ziniur_64.mp3",
+    "name": "Ziniu Radijas",
+    "genre": "Spoken",
+    "country_code": "LT",
+    "bit_rate": 128,
+    "playing": 0
+  },
+  {
+    "index": 166,
+    "url": "http://zeus.lrb.lu:8000/lrb.live",
+    "name": "Radio LRB",
+    "genre": "Adult Contemporary",
+    "country_code": "LU",
+    "bit_rate": 128,
+    "playing": 0
+  },
+  {
+    "index": 167,
+    "url": "http://radiodudelange.ice.infomaniak.ch/radiodudelange-128.mp3",
+    "name": "Radio Diddeleng",
+    "genre": "Dance",
+    "country_code": "LU",
+    "bit_rate": 128,
+    "playing": 0
+  },
+  {
+    "index": 168,
+    "url": "http://82.145.43.92:8312/stream",
+    "name": "RadioPuls",
+    "genre": "Folk",
+    "country_code": "LU",
+    "bit_rate": 128,
+    "playing": 0
+  },
+  {
+    "index": 169,
+    "url": "http://81.92.238.32/;",
+    "name": "RTL Luxembourg",
+    "genre": "Spoken",
+    "country_code": "LU",
+    "bit_rate": 128,
+    "playing": 0
+  },
+  {
+    "index": 170,
+    "url": "https://live.xo.fm/xofm128",
+    "name": "XO FM",
+    "genre": "Jazz",
+    "country_code": "LV",
+    "bit_rate": 128,
+    "playing": 0
+  },
+  {
+    "index": 171,
+    "url": "http://91.90.255.111/MixFM_96",
+    "name": "Mix FM 102.7",
+    "genre": "Pop",
+    "country_code": "LV",
+    "bit_rate": 128,
+    "playing": 0
+  },
+  {
+    "index": 172,
+    "url": "http://82.135.234.195:8000/pukas.mp3",
+    "name": "Radijo stotis Pukas",
+    "genre": "Pop",
+    "country_code": "LV",
+    "bit_rate": 128,
+    "playing": 0
+  },
+  {
+    "index": 173,
+    "url": "http://195.69.88.58:8000/;stream/1",
+    "name": "Radio Pik 100 FM",
+    "genre": "Pop",
+    "country_code": "LV",
+    "bit_rate": 128,
+    "playing": 0
+  },
+  {
+    "index": 174,
+    "url": "https://live.retrofm.lv/retrofmlatvia",
+    "name": "Retro FM Latvija",
+    "genre": "Pop",
+    "country_code": "LV",
+    "bit_rate": 128,
+    "playing": 0
+  },
+  {
+    "index": 175,
+    "url": "http://stream.fred.fm:8062/stream/;",
+    "name": "FRED FILM RADIO",
+    "genre": "Spoken",
+    "country_code": "LV",
+    "bit_rate": 128,
+    "playing": 0
+  },
+  {
+    "index": 176,
+    "url": "http://195.13.253.51:8000/128_mp3",
+    "name": "Latgolys Radeja",
+    "genre": "Spoken",
+    "country_code": "LV",
+    "bit_rate": 128,
+    "playing": 0
+  },
+  {
+    "index": 177,
+    "url": "http://icecast.vrtcdn.be/stubru-high.mp3",
+    "name": "Studio Brussel",
+    "genre": "Alternative",
+    "country_code": "NL",
+    "bit_rate": 128,
+    "playing": 0
+  },
+  {
+    "index": 178,
+    "url": "https://20423.live.streamtheworld.com/WEB12_MP3_SC?",
+    "name": "Slam! Boom Room",
+    "genre": "Electronic",
+    "country_code": "NL",
+    "bit_rate": 192,
+    "playing": 0
+  },
+  {
+    "index": 179,
+    "url": "http://stream.100p.nl/100pctnl.mp3",
+    "name": "100%",
+    "genre": "Local music",
+    "country_code": "NL",
+    "bit_rate": 128,
+    "playing": 0
+  },
+  {
+    "index": 180,
+    "url": "http://stream.radionl.fm/radionl",
+    "name": "RadioNL",
+    "genre": "Local music",
+    "country_code": "NL",
+    "bit_rate": 128,
+    "playing": 0
+  },
+  {
+    "index": 181,
+    "url": "http://20073.live.streamtheworld.com/SRGSTR10.mp3",
+    "name": "Veronica Top 1000",
+    "genre": "Oldies",
+    "country_code": "NL",
+    "bit_rate": 128,
+    "playing": 0
+  },
+  {
+    "index": 182,
+    "url": "http://icecast.omroep.nl:80/3fm-bb-mp3",
+    "name": "3FM Serious Radio",
+    "genre": "Pop",
+    "country_code": "NL",
+    "bit_rate": 192,
+    "playing": 0
+  },
+  {
+    "index": 183,
+    "url": "http://icecast-qmusic.cdp.triple-it.nl/Qmusic_nl_live_96.mp3",
+    "name": "Q Music Amsterdam",
+    "genre": "Pop",
+    "country_code": "NL",
+    "bit_rate": 96,
+    "playing": 0
+  },
+  {
+    "index": 184,
+    "url": "http://20073.live.streamtheworld.com/RADIO538.mp3",
+    "name": "Radio 538",
+    "genre": "Pop",
+    "country_code": "NL",
+    "bit_rate": 128,
+    "playing": 0
+  },
+  {
+    "index": 185,
+    "url": "http://82.201.100.10:8000/WEB11",
+    "name": "Radio 538 Hitzone",
+    "genre": "Pop",
+    "country_code": "NL",
+    "bit_rate": 128,
+    "playing": 0
+  },
+  {
+    "index": 186,
+    "url": "http://19983.live.streamtheworld.com/TLPSTR02.mp3",
+    "name": "Radio 538 Top 40",
+    "genre": "Pop",
+    "country_code": "NL",
+    "bit_rate": 128,
+    "playing": 0
+  },
+  {
+    "index": 187,
+    "url": "http://playerservices.streamtheworld.com/api/livestream-redirect/SRGSTR13.mp3",
+    "name": "Radio Veronica",
+    "genre": "Pop",
+    "country_code": "NL",
+    "bit_rate": 128,
+    "playing": 0
+  },
+  {
+    "index": 188,
+    "url": "http://20853.live.streamtheworld.com/VERONICA.mp3",
+    "name": "Veronica Hit Radio",
+    "genre": "Pop",
+    "country_code": "NL",
+    "bit_rate": 0,
+    "playing": 0
+  },
+  {
+    "index": 189,
+    "url": "http://17873.live.streamtheworld.com/SRGSTR11.mp3",
+    "name": "Veronica Rock",
+    "genre": "Rock",
+    "country_code": "NL",
+    "bit_rate": 0,
+    "playing": 0
+  },
+  {
+    "index": 190,
+    "url": "http://sky.babahhcdn.com/SKY?/skyradio_hi.mp3",
+    "name": "Sky Radio",
+    "genre": "Soft pop",
+    "country_code": "NL",
+    "bit_rate": 128,
+    "playing": 0
+  },
+  {
+    "index": 191,
+    "url": "http://icecast.omroep.nl/radio1-bb-mp3",
+    "name": "Radio 1",
+    "genre": "Spoken",
+    "country_code": "NL",
+    "bit_rate": 64,
+    "playing": 0
+  },
+  {
+    "index": 192,
+    "url": "http://stream.p4.no/p7_mp3_hq",
+    "name": "P7 Klem",
+    "genre": "Adult contemporary",
+    "country_code": "NO",
+    "bit_rate": 192,
+    "playing": 0
+  },
+  {
+    "index": 193,
+    "url": "http://stream.p4.no/p9_mp3_hq",
+    "name": "P9 Retro",
+    "genre": "Classic hits",
+    "country_code": "NO",
+    "bit_rate": 192,
+    "playing": 0
+  },
+  {
+    "index": 194,
+    "url": "http://lyd.nrk.no/nrk_radio_klassisk_mp3_h",
+    "name": "NRK Klassisk",
+    "genre": "Classical",
+    "country_code": "NO",
+    "bit_rate": 192,
+    "playing": 0
+  },
+  {
+    "index": 195,
+    "url": "http://stream.p4.no/p10_mp3_hq",
+    "name": "Radio Country",
+    "genre": "Country",
+    "country_code": "NO",
+    "bit_rate": 192,
+    "playing": 0
+  },
+  {
+    "index": 196,
+    "url": "http://lyd.nrk.no/nrk_radio_mp3_mp3_h",
+    "name": "NRK MP3",
+    "genre": "Dance",
+    "country_code": "NO",
+    "bit_rate": 192,
+    "playing": 0
+  },
+  {
+    "index": 197,
+    "url": "http://edge-bauerno-02-gos1.sharp-stream.com/radio1_no_mp3?",
+    "name": "Radio-1",
+    "genre": "Dance",
+    "country_code": "NO",
+    "bit_rate": 128,
+    "playing": 0
+  },
+  {
+    "index": 198,
+    "url": "https://live-bauerdk.sharp-stream.com/thevoice_dk_mp3",
+    "name": "The Voice NO",
+    "genre": "Hip Hop/RnB",
+    "country_code": "NO",
+    "bit_rate": 128,
+    "playing": 0
+  },
+  {
+    "index": 199,
+    "url": "http://lyd.nrk.no/nrk_radio_jazz_mp3_h",
+    "name": "NRK Jazz",
+    "genre": "Jazz",
+    "country_code": "NO",
+    "bit_rate": 192,
+    "playing": 0
+  },
+  {
+    "index": 200,
+    "url": "http://lyd.nrk.no/nrk_radio_alltid_nyheter_mp3_h",
+    "name": "NRK Alltid Nyheter",
+    "genre": "News",
+    "country_code": "NO",
+    "bit_rate": 192,
+    "playing": 0
+  },
+  {
+    "index": 201,
+    "url": "http://lyd.nrk.no/nrk_radio_p1_hordaland_mp3_h",
+    "name": "NRK P1 Hordaland",
+    "genre": "Oldies",
+    "country_code": "NO",
+    "bit_rate": 192,
+    "playing": 0
+  },
+  {
+    "index": 202,
+    "url": "http://lyd.nrk.no/nrk_radio_p1_ostlandssendingen_mp3_h",
+    "name": "NRK P1 Ostlandssendingen",
+    "genre": "Oldies",
+    "country_code": "NO",
+    "bit_rate": 192,
+    "playing": 0
+  },
+  {
+    "index": 203,
+    "url": "http://stream.p4.no/p4_mp3_hq",
+    "name": "P4 Lyden av Norge",
+    "genre": "Pop",
+    "country_code": "NO",
+    "bit_rate": 192,
+    "playing": 0
+  },
+  {
+    "index": 204,
+    "url": "http://stream.p4.no/p8_mp3_hq",
+    "name": "P8 Pop",
+    "genre": "Pop",
+    "country_code": "NO",
+    "bit_rate": 192,
+    "playing": 0
+  },
+  {
+    "index": 205,
+    "url": "http://edge-bauerno-01-cr.sharp-stream.com/radionorge_no_mp3?",
+    "name": "Radio Norge",
+    "genre": "Pop",
+    "country_code": "NO",
+    "bit_rate": 128,
+    "playing": 0
+  },
+  {
+    "index": 206,
+    "url": "http://stream.p4.no/p6_mp3_hq",
+    "name": "P6 Rock",
+    "genre": "Rock",
+    "country_code": "NO",
+    "bit_rate": 192,
+    "playing": 0
+  },
+  {
+    "index": 207,
+    "url": "http://edge-bauerno-03-gos2.sharp-stream.com/radiorock_no_mp3?",
+    "name": "Radio Rock",
+    "genre": "Rock",
+    "country_code": "NO",
+    "bit_rate": 128,
+    "playing": 0
+  },
+  {
+    "index": 208,
+    "url": "http://lyd.nrk.no/nrk_radio_p2_mp3_h",
+    "name": "NRK P2",
+    "genre": "Spoken",
+    "country_code": "NO",
+    "bit_rate": 192,
+    "playing": 0
+  },
+  {
+    "index": 209,
+    "url": "http://stream.p4.no/nrj_mp3_hq",
+    "name": "NRJ Norway",
+    "genre": "Top 40",
+    "country_code": "NO",
+    "bit_rate": 192,
+    "playing": 0
+  },
+  {
+    "index": 210,
+    "url": "http://stream.p4.no/p5oslo_mp3_hq",
+    "name": "P5 Hits",
+    "genre": "Top 40",
+    "country_code": "NO",
+    "bit_rate": 192,
+    "playing": 0
+  },
+  {
+    "index": 211,
+    "url": "http://plu02.cdn.eurozet.pl:8318/plu-waw.mp3",
+    "name": "Radio PLUS",
+    "genre": "Adult contemporary",
+    "country_code": "PL",
+    "bit_rate": 128,
+    "playing": 0
+  },
+  {
+    "index": 212,
+    "url": "http://s1.slotex.pl:7390/stream/1/",
+    "name": "Radio Orbit",
+    "genre": "Alternative Rock",
+    "country_code": "PL",
+    "bit_rate": 128,
+    "playing": 0
+  },
+  {
+    "index": 213,
+    "url": "http://mainstream.radioagora.pl:80/tuba8-1.mp3",
+    "name": "Roxy FM",
+    "genre": "Alternative rock",
+    "country_code": "PL",
+    "bit_rate": 96,
+    "playing": 0
+  },
+  {
+    "index": 214,
+    "url": "http://s1.slotex.pl:7076/stream/1/;",
+    "name": "Radio Wakai",
+    "genre": "Anime",
+    "country_code": "PL",
+    "bit_rate": 128,
+    "playing": 0
+  },
+  {
+    "index": 215,
+    "url": "http://stream.radiobaobab.pl:8000/radiobaobab.mp3",
+    "name": "Radio Baobab",
+    "genre": "Blues",
+    "country_code": "PL",
+    "bit_rate": 128,
+    "playing": 0
+  },
+  {
+    "index": 216,
+    "url": "http://88.199.169.10:8000/",
+    "name": "Radio Niepokalan\\xc3\\xb3w",
+    "genre": "Christian",
+    "country_code": "PL",
+    "bit_rate": 64,
+    "playing": 0
+  },
+  {
+    "index": 217,
+    "url": "http://stream.polskieradio.pl/program2",
+    "name": "Polskie Radio 2",
+    "genre": "Classical",
+    "country_code": "PL",
+    "bit_rate": 132,
+    "playing": 0
+  },
+  {
+    "index": 218,
+    "url": "http://217.74.72.10:8000/rmf_classic",
+    "name": "RMF Classic",
+    "genre": "Classical",
+    "country_code": "PL",
+    "bit_rate": 128,
+    "playing": 0
+  },
+  {
+    "index": 219,
+    "url": "https://n07a-eu.rcs.revma.com/an1ugyygzk8uv?rj-ttl=5&rj-tok=AAABhbxYZqEA6gRI8MNwKHaPog",
+    "name": "Radio 357",
+    "genre": "Custom",
+    "country_code": "PL",
+    "bit_rate": 192,
+    "playing": 0
+  },
+  {
+    "index": 220,
+    "url": "http://stream3.nadaje.com:9000/;stream.mp3",
+    "name": "Muzyczne Radio Polska",
+    "genre": "Dance",
+    "country_code": "PL",
+    "bit_rate": 128,
+    "playing": 0
+  },
+  {
+    "index": 221,
+    "url": "http://stream.polskieradio.pl/program1",
+    "name": "Polskie Radio 1",
+    "genre": "Easy listening",
+    "country_code": "PL",
+    "bit_rate": 100,
+    "playing": 0
+  },
+  {
+    "index": 222,
+    "url": "http://play.radiomrs.com:7494/;stream.nsv",
+    "name": "Radio MRS",
+    "genre": "Electronic",
+    "country_code": "PL",
+    "bit_rate": 128,
+    "playing": 0
+  },
+  {
+    "index": 223,
+    "url": "http://5.39.71.159:8750/;stream.nsv",
+    "name": "Radio Minimal mix",
+    "genre": "Electronic",
+    "country_code": "PL",
+    "bit_rate": 128,
+    "playing": 0
+  },
+  {
+    "index": 224,
+    "url": "http://188.165.195.176:8058/stream/;",
+    "name": "Radio Noname",
+    "genre": "Electronic",
+    "country_code": "PL",
+    "bit_rate": 128,
+    "playing": 0
+  },
+  {
+    "index": 225,
+    "url": "http://217.74.72.10:8000/rmf_maxxx",
+    "name": "Radio RMF MAXXX",
+    "genre": "Electronic",
+    "country_code": "PL",
+    "bit_rate": 128,
+    "playing": 0
+  },
+  {
+    "index": 226,
+    "url": "http://radiojazzfm.radiokitstream.org/radiojazzfm.mp3?type=.mp3/;stream.mp3",
+    "name": "RadioJAZZ FM",
+    "genre": "Jazz",
+    "country_code": "PL",
+    "bit_rate": 128,
+    "playing": 0
+  },
+  {
+    "index": 227,
+    "url": "http://stream4.nadaje.com:11986/prs",
+    "name": "Radio Szczecin",
+    "genre": "Local Music",
+    "country_code": "PL",
+    "bit_rate": 128,
+    "playing": 0
+  },
+  {
+    "index": 228,
+    "url": "http://stream.radiopik.pl:9004/",
+    "name": "Radio PIK",
+    "genre": "Local music",
+    "country_code": "PL",
+    "bit_rate": 128,
+    "playing": 0
+  },
+  {
+    "index": 229,
+    "url": "http://51.255.8.139:8738/stream",
+    "name": "Metal Live Radio",
+    "genre": "Metal",
+    "country_code": "PL",
+    "bit_rate": 128,
+    "playing": 0
+  },
+  {
+    "index": 230,
+    "url": "http://stream10.radioagora.pl:80/bluefm.mp3",
+    "name": "Blue FM Poznan",
+    "genre": "Pop",
+    "country_code": "PL",
+    "bit_rate": 128,
+    "playing": 0
+  },
+  {
+    "index": 231,
+    "url": "http://stream4.nadaje.com:9212/radiokatowice",
+    "name": "PR Radio Katowice",
+    "genre": "Pop",
+    "country_code": "PL",
+    "bit_rate": 128,
+    "playing": 0
+  },
+  {
+    "index": 232,
+    "url": "http://pla-net-01.cdn.eurozet.pl:8700/",
+    "name": "Planeta FM Warszawa",
+    "genre": "Pop",
+    "country_code": "PL",
+    "bit_rate": 128,
+    "playing": 0
+  },
+  {
+    "index": 233,
+    "url": "http://stream.polskieradio.pl/program4",
+    "name": "Polskie Radio 4",
+    "genre": "Pop",
+    "country_code": "PL",
+    "bit_rate": 100,
+    "playing": 0
+  },
+  {
+    "index": 234,
+    "url": "http://217.74.72.11:8000/rmf_fm",
+    "name": "RMF FM",
+    "genre": "Pop",
+    "country_code": "PL",
+    "bit_rate": 128,
+    "playing": 0
+  },
+  {
+    "index": 235,
+    "url": "http://50.22.253.43/radiofest",
+    "name": "Radio Fest",
+    "genre": "Pop",
+    "country_code": "PL",
+    "bit_rate": 128,
+    "playing": 0
+  },
+  {
+    "index": 236,
+    "url": "http://stream3.nadaje.com:8048/;0872561763972044stream.nsv",
+    "name": "Radio Kaszebe",
+    "genre": "Pop",
+    "country_code": "PL",
+    "bit_rate": 128,
+    "playing": 0
+  },
+  {
+    "index": 237,
+    "url": "http://stream4.nadaje.com:15358/radiokolor",
+    "name": "Radio Kolor",
+    "genre": "Pop",
+    "country_code": "PL",
+    "bit_rate": 128,
+    "playing": 0
+  },
+  {
+    "index": 238,
+    "url": "http://stream4.nadaje.com:15274/live",
+    "name": "Radio Parada",
+    "genre": "Pop",
+    "country_code": "PL",
+    "bit_rate": 128,
+    "playing": 0
+  },
+  {
+    "index": 239,
+    "url": "http://217.74.72.11:8000/rmf_alternatywa",
+    "name": "Radio RMF - Alternatywa",
+    "genre": "Pop",
+    "country_code": "PL",
+    "bit_rate": 128,
+    "playing": 0
+  },
+  {
+    "index": 240,
+    "url": "http://stream3.nadaje.com:8200/szczecinfm?hash=1487522603361.mp3",
+    "name": "Radio Szczecin Extra",
+    "genre": "Pop",
+    "country_code": "PL",
+    "bit_rate": 128,
+    "playing": 0
+  },
+  {
+    "index": 241,
+    "url": "http://stream.radio98i9.pl:8000/szczecin",
+    "name": "Szczecinie Radio",
+    "genre": "Pop",
+    "country_code": "PL",
+    "bit_rate": 128,
+    "playing": 0
+  },
+  {
+    "index": 242,
+    "url": "http://mainstream.radioagora.pl:80/tuba9-1.mp3",
+    "name": "Z\\xc5\\x82ote Przeboje",
+    "genre": "Pop",
+    "country_code": "PL",
+    "bit_rate": 96,
+    "playing": 0
+  },
+  {
+    "index": 243,
+    "url": "http://sirius.shoutca.st:8761/1",
+    "name": "Radio Forever 80s",
+    "genre": "Retro",
+    "country_code": "PL",
+    "bit_rate": 128,
+    "playing": 0
+  },
+  {
+    "index": 244,
+    "url": "http://dcs-188-64-85-35.atmcdn.pl/sc/o2/Eurozet/live/antyradio.livx?audio=5/;stream.nsv?seed=119.60711795836687",
+    "name": "Antyradio",
+    "genre": "Rock",
+    "country_code": "PL",
+    "bit_rate": 128,
+    "playing": 0
+  },
+  {
+    "index": 245,
+    "url": "http://stream4.nadaje.com:8086/dentalradio",
+    "name": "Dental Radio",
+    "genre": "Spoken",
+    "country_code": "PL",
+    "bit_rate": 128,
+    "playing": 0
+  },
+  {
+    "index": 246,
+    "url": "http://stream.polskieradio.pl/program3",
+    "name": "Polskie Radio 3",
+    "genre": "Spoken",
+    "country_code": "PL",
+    "bit_rate": 100,
+    "playing": 0
+  },
+  {
+    "index": 247,
+    "url": "http://wroclaw.radio.pionier.net.pl:8000/pl/tuba10-1.mp3",
+    "name": "Tok FM",
+    "genre": "Spoken",
+    "country_code": "PL",
+    "bit_rate": 128,
+    "playing": 0
+  },
+  {
+    "index": 248,
+    "url": "http://nashe1.hostingradio.ru/ultra-128.mp3",
+    "name": "\\xd0\\xa3\\xd0\\xbb\\xd1\\x8c\\xd1\\x82\\xd1\\x80\\xd0\\xb0",
+    "genre": "Alternative rock",
+    "country_code": "RU",
+    "bit_rate": 320,
+    "playing": 0
+  },
+  {
+    "index": 249,
+    "url": "http://air.radiorecord.ru:8101/rr_320",
+    "name": "\\xd0\\xa0\\xd0\\xb0\\xd0\\xb4\\xd0\\xb8\\xd0\\xbe \\xd0\\xa0\\xd0\\xb5\\xd0\\xba\\xd0\\xbe\\xd1\\x80\\xd0\\xb4",
+    "genre": "Dance",
+    "country_code": "RU",
+    "bit_rate": 128,
+    "playing": 0
+  },
+  {
+    "index": 250,
+    "url": "http://listen.rusongs.ru:8005/ru-mp3-128",
+    "name": "\\xd0\\xa0\\xd0\\xb0\\xd0\\xb4\\xd0\\xb8\\xd0\\xbe \\xd0\\xa0\\xd1\\x83\\xd1\\x81\\xd1\\x81\\xd0\\xba\\xd0\\xb8\\xd0\\xb5 \\xd0\\x9f\\xd0\\xb5\\xd1\\x81\\xd0\\xbd\\xd0\\xb8",
+    "genre": "Pop",
+    "country_code": "RU",
+    "bit_rate": 128,
+    "playing": 0
+  },
+  {
+    "index": 251,
+    "url": "http://retroserver.streamr.ru:8043/retro256.mp3",
+    "name": "\\xd0\\xa0\\xd0\\xb5\\xd1\\x82\\xd1\\x80\\xd0\\xbe \\xd0\\xa4\\xd0\\x9c",
+    "genre": "Retro",
+    "country_code": "RU",
+    "bit_rate": 128,
+    "playing": 0
+  },
+  {
+    "index": 252,
+    "url": "http://94.25.53.133:80/nashe-128.mp3",
+    "name": "\\xd0\\x9d\\xd0\\xb0\\xd1\\x88\\xd0\\xb5 \\xd0\\xa0\\xd0\\xb0\\xd0\\xb4\\xd0\\xb8\\xd0\\xbe",
+    "genre": "Rock",
+    "country_code": "RU",
+    "bit_rate": 192,
+    "playing": 0
+  },
+  {
+    "index": 253,
+    "url": "http://nashe2.hostingradio.ru/ultra-128.mp3",
+    "name": "\\xd0\\xa0\\xd0\\xb0\\xd0\\xb4\\xd0\\xb8\\xd0\\xbe Ultra",
+    "genre": "Rock",
+    "country_code": "RU",
+    "bit_rate": 128,
+    "playing": 0
+  },
+  {
+    "index": 254,
+    "url": "http://icecast.vgtrk.cdnvideo.ru/vestifm_mp3_192kbps",
+    "name": "\\xd0\\x92\\xd0\\xb5\\xd1\\x81\\xd1\\x82\\xd0\\xb8 \\xd0\\xa4\\xd0\\x9c",
+    "genre": "Spoken",
+    "country_code": "RU",
+    "bit_rate": 128,
+    "playing": 0
+  },
+  {
+    "index": 255,
+    "url": "http://edge-bauersefm-04-cr.sharp-stream.com/vinylfm_instream_se_mp3?",
+    "name": "Vinyl 107",
+    "genre": "60's, 70's & 80's",
+    "country_code": "SE",
+    "bit_rate": 96,
+    "playing": 0
+  },
+  {
+    "index": 256,
+    "url": "http://john631.serverroom.net:6484/;stream.mp3",
+    "name": "Radiohits Sweden",
+    "genre": "Adult contemporary",
+    "country_code": "SE",
+    "bit_rate": 128,
+    "playing": 0
+  },
+  {
+    "index": 257,
+    "url": "http://marmalade.scenesat.com:8086/bitjam.mp3",
+    "name": "BitJam Radio",
+    "genre": "Electronic",
+    "country_code": "SE",
+    "bit_rate": 128,
+    "playing": 0
+  },
+  {
+    "index": 258,
+    "url": "http://fm03-icecast.mtg-r.net/fm03_mp3?platform=web",
+    "name": "Lugna Favoriter",
+    "genre": "Love Songs",
+    "country_code": "SE",
+    "bit_rate": 128,
+    "playing": 0
+  },
+  {
+    "index": 259,
+    "url": "http://185.86.150.69:8100/webradio",
+    "name": "Pirate Rock",
+    "genre": "Metal",
+    "country_code": "SE",
+    "bit_rate": 128,
+    "playing": 0
+  },
+  {
+    "index": 260,
+    "url": "http://edge-bauersefm-04-cr.sharp-stream.com/nrj_instreamtest_se_mp3?",
+    "name": "NRJ Sverige",
+    "genre": "Pop",
+    "country_code": "SE",
+    "bit_rate": 96,
+    "playing": 0
+  },
+  {
+    "index": 261,
+    "url": "http://fm01-icecast.mtg-r.net/fm01_mp3?platform=web/fm01_mp3",
+    "name": "RIX FM",
+    "genre": "Pop",
+    "country_code": "SE",
+    "bit_rate": 48,
+    "playing": 0
+  },
+  {
+    "index": 262,
+    "url": "http://fm02-icecast.mtg-r.net/fm02_mp3?platform=web",
+    "name": "Bandit Rock",
+    "genre": "Rock",
+    "country_code": "SE",
+    "bit_rate": 96,
+    "playing": 0
+  },
+  {
+    "index": 263,
+    "url": "http://stream.dbmedia.se/crrMP3",
+    "name": "Country Rocks Radio",
+    "genre": "Various",
+    "country_code": "SE",
+    "bit_rate": 128,
+    "playing": 0
+  },
+  {
+    "index": 264,
+    "url": "http://stream.radiosport.sk:8000/Sport192.mp3",
+    "name": "R\\xc3\\xa1dio \\xc5\\xa0port",
+    "genre": "80s and 90s",
+    "country_code": "SK",
+    "bit_rate": 192,
+    "playing": 0
+  },
+  {
+    "index": 265,
+    "url": "http://stream.jemne.sk/jemne-hi.mp3",
+    "name": "Jemn\\xc3\\xa9 mel\\xc3\\xb3die",
+    "genre": "Adult contemporary",
+    "country_code": "SK",
+    "bit_rate": 128,
+    "playing": 0
+  },
+  {
+    "index": 266,
+    "url": "http://stream.sepia.sk:8000/viva128.mp3",
+    "name": "R\\xc3\\xa1dio Viva",
+    "genre": "Adult contemporary",
+    "country_code": "SK",
+    "bit_rate": 128,
+    "playing": 0
+  },
+  {
+    "index": 267,
+    "url": "http://stream.aligator.sk:8000/aligator_192.mp3",
+    "name": "Radio Aligator Bratislava",
+    "genre": "Classic rock",
+    "country_code": "SK",
+    "bit_rate": 128,
+    "playing": 0
+  },
+  {
+    "index": 268,
+    "url": "http://stream.antenarock.sk/antena-hi.mp3",
+    "name": "Ant\\xc3\\xa9na Hit R\\xc3\\xa1dio",
+    "genre": "Pop",
+    "country_code": "SK",
+    "bit_rate": 128,
+    "playing": 0
+  },
+  {
+    "index": 269,
+    "url": "http://pool.cdn.lagardere.cz/fm-europa2sk-128",
+    "name": "Eur\\xc3\\xb3pa 2",
+    "genre": "Pop",
+    "country_code": "SK",
+    "bit_rate": 128,
+    "playing": 0
+  },
+  {
+    "index": 270,
+    "url": "http://stream.funradio.sk:8000/fun128.mp3",
+    "name": "Fun R\\xc3\\xa1dio",
+    "genre": "Pop",
+    "country_code": "SK",
+    "bit_rate": 128,
+    "playing": 0
+  },
+  {
+    "index": 271,
+    "url": "http://85.248.7.162:8000/96.mp3",
+    "name": "R\\xc3\\xa1dio Expres",
+    "genre": "Pop",
+    "country_code": "SK",
+    "bit_rate": 96,
+    "playing": 0
+  },
+  {
+    "index": 272,
+    "url": "https://radio.treecom.net/kissmp3_128.mp3",
+    "name": "R\\xc3\\xa1dio KISS",
+    "genre": "Pop",
+    "country_code": "SK",
+    "bit_rate": 128,
+    "playing": 0
+  },
+  {
+    "index": 273,
+    "url": "http://217.75.92.14:8000/nr160kb",
+    "name": "R\\xc3\\xa1dio ONE",
+    "genre": "Pop",
+    "country_code": "SK",
+    "bit_rate": 128,
+    "playing": 0
+  },
+  {
+    "index": 274,
+    "url": "http://live.slovakradio.sk:8000/Regina_BB_128.mp3",
+    "name": "SRO Regina BB",
+    "genre": "Spoken",
+    "country_code": "SK",
+    "bit_rate": 128,
+    "playing": 0
+  },
+  {
+    "index": 275,
+    "url": "http://radio.studiob.rs:8004/",
+    "name": "Studio B",
+    "genre": "Adult contemporary",
+    "country_code": "SRB",
+    "bit_rate": 128,
+    "playing": 0
+  },
+  {
+    "index": 276,
+    "url": "http://radioas.kbcnet.rs:8020/",
+    "name": "Radio AS FM Novi Sad",
+    "genre": "Electronic",
+    "country_code": "SRB",
+    "bit_rate": 64,
+    "playing": 0
+  },
+  {
+    "index": 277,
+    "url": "http://streaming.tdiradio.com/tdiradio.mp3",
+    "name": "Radio TDI",
+    "genre": "Pop",
+    "country_code": "SRB",
+    "bit_rate": 48,
+    "playing": 0
+  },
+  {
+    "index": 278,
+    "url": "http://109.206.96.12:8000/",
+    "name": "Radio TOP FM Beograd",
+    "genre": "Pop",
+    "country_code": "SRB",
+    "bit_rate": 128,
+    "playing": 0
+  },
+  {
+    "index": 279,
+    "url": "http://www.radiobeograd.rs/download/radio202/dnevnik/dnevnik202.mp3",
+    "name": "Beograd 202",
+    "genre": "Spoken",
+    "country_code": "SRB",
+    "bit_rate": 128,
+    "playing": 0
+  },
+  {
+    "index": 280,
+    "url": "http://online-radioroks.tavrmedia.ua:7000/RadioROKS",
+    "name": "RadioRoks",
+    "genre": "Rock",
+    "country_code": "UA",
+    "bit_rate": 128,
+    "playing": 0
+  },
+  {
+    "index": 281,
+    "url": "http://78.129.163.140:8070/",
+    "name": "EKR Rock Radio",
+    "genre": "Rock",
+    "country_code": "ENG",
+    "bit_rate": 128,
+    "playing": 0
+  }
+]
