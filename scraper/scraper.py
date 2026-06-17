@@ -1,7 +1,16 @@
 import re
 import json
 import urllib.request
+import urllib.parse
 from dataclasses import dataclass
+
+# Allowed URL schemes and a hard cap on field lengths to prevent injecting
+# malformed entries into the .sii file from a compromised wiki page.
+_ALLOWED_SCHEMES = {"http", "https"}
+_MAX_URL_LEN = 512
+_MAX_FIELD_LEN = 128
+# Characters that would break the .sii pipe-delimited format
+_SII_FORBIDDEN = re.compile(r'[|"\n\r]')
 
 FANDOM_API = (
     "https://truck-simulator.fandom.com/api.php"
@@ -58,6 +67,31 @@ def _clean(text: str) -> str:
 def _extract_url(text: str) -> str | None:
     m = re.search(r"https?://\S+", text)
     return m.group(0).rstrip(".,;)") if m else None
+
+
+def _validate_url(url: str) -> str | None:
+    """Return the URL if safe to write into .sii, else None."""
+    if len(url) > _MAX_URL_LEN:
+        return None
+    try:
+        parsed = urllib.parse.urlparse(url)
+    except Exception:
+        return None
+    if parsed.scheme not in _ALLOWED_SCHEMES:
+        return None
+    if not parsed.netloc:
+        return None
+    # Strip any fragment (e.g. #AddedByRaf_Salvado) — not valid in stream URLs
+    url = urllib.parse.urlunparse(parsed._replace(fragment=""))
+    if _SII_FORBIDDEN.search(url):
+        return None
+    return url
+
+
+def _sanitise_field(value: str) -> str:
+    """Strip characters that would break the .sii pipe-delimited format."""
+    value = _SII_FORBIDDEN.sub(" ", value).strip()
+    return value[:_MAX_FIELD_LEN]
 
 
 def _resolve_lang(language: str, country: str) -> str:
@@ -152,6 +186,9 @@ def _parse_table(table_text: str, country: str) -> list[Station]:
 
         if url is None:
             continue
+        url = _validate_url(url)
+        if url is None:
+            continue
         if name is None:
             name = "Unknown"
         if genre in ("?", ""):
@@ -159,8 +196,8 @@ def _parse_table(table_text: str, country: str) -> list[Station]:
 
         stations.append(Station(
             url=url,
-            name=name,
-            genre=genre,
+            name=_sanitise_field(name),
+            genre=_sanitise_field(genre),
             language=_resolve_lang(language, country),
             bitrate=_parse_bitrate(bitrate_raw),
             country=country,
