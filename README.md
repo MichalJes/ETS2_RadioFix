@@ -8,7 +8,7 @@ A regularly updated `live_streams.sii` file for [Euro Truck Simulator 2](https:/
 2. Back up your current `live_streams.sii` (rename or copy it elsewhere)
 3. Replace it with the `live_streams.sii` from this repo
 
-## Scraper (PythonScripts branch)
+## Scraper
 
 The `scraper/` folder contains a Python CLI that regenerates `live_streams.sii` automatically:
 
@@ -31,6 +31,8 @@ python scraper/main.py --country "United Kingdom"
 ```
 
 **Last run:** 180 live stations across 20 countries (344 scraped, 164 dead filtered out)
+
+See [STATIONS.md](STATIONS.md) for the full per-station live/dead status.
 
 ## Current status
 
@@ -80,4 +82,4 @@ python scraper/main.py --country "United Kingdom"
 * [ ] Scheduled auto-run to keep `live_streams.sii` up to date
 * [ ] Auto-open pull request when new stations are found
 * [ ] Add missing countries from the wiki
-* [ ] ISO 639-3 language code standardisation across all stations
+* [x] ISO 639-3 language code standardisation across all stations
