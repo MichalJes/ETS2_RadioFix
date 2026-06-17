@@ -45,9 +45,9 @@
 | LiveSPORT Radio | http://pistons.catalyst.net.nz/trackside-radio-high | New Zealand |
 | Radio New Zealand Concert | http://streaming.radionz.co.nz/concert-mbr | New Zealand |
 | Bubamara | http://88.85.99.2/live-128.mp3 | North Macedonia |
-| Yes FM 101.1 | https://28153.live.streamtheworld.com/YESTHEBEST_MNL_SC#AddedByRaf_Salvado | Philippines |
+| Yes FM 101.1 | https://28153.live.streamtheworld.com/YESTHEBEST_MNL_SC | Philippines |
 | Love Radio Manila | https://22283.live.streamtheworld.com/LOVERADIO_MNL_SC | Philippines |
-| Easy Rock 96.3 | https://22243.live.streamtheworld.com/EASYROCK_MNL_SC#AddedByRaf_Salvado | Philippines |
+| Easy Rock 96.3 | https://22243.live.streamtheworld.com/EASYROCK_MNL_SC | Philippines |
 | Mega Hits | https://20133.live.streamtheworld.com/MEGA_HITS_SC | Portugal |
 | Cidade FM | https://mcrscast.mcr.iol.pt/cidadefm | Portugal |
 | Radio Nacional de España | http://rne.rtveradio.cires21.com/rne.mp3 | Spain |
@@ -80,12 +80,11 @@
 | 101.9 La Buena KLBN-FM | https://18243.live.streamtheworld.com/KLBNFM.mp3 | United States |
 | DKFM | http://maggie.torontocast.com:18090/live.mp3 | United States |
 | KBIF 900 AM | http://www.dinnerjazzexcursion.com:8000/KBIF2 | United States |
-| KFRR FM 104.1
-It Just Rocks | https://17843.live.streamtheworld.com/KFRRFM.mp3 | United States |
+| KFRR FM 104.1 It Just Rocks | https://17843.live.streamtheworld.com/KFRRFM.mp3 | United States |
 | La Tricolor | https://s30.myradiostream.com:28324/ | United States |
 | La Suavecita | http://27143.live.streamtheworld.com:3690/KVVAFM.mp3 | United States |
 | Classical KUSC | https://23103.live.streamtheworld.com/KUSCMP128.mp3 | United States |
-| Wild Rock Radio | http://209.133.216.3:7100/;?1587459616178 | United States |
+| Wild Rock Radio | http://209.133.216.3:7100/?1587459616178 | United States |
 | Jose 97.5 FM | https://27163.live.streamtheworld.com/KLYYFM.mp3 | United States |
 | KAZN | http://mobilewzrc.serverroom.us:6914/;stream.mp3 | United States |
 | Radio K | http://peridot.streamguys.com:5210/live | United States |
@@ -144,11 +143,9 @@ It Just Rocks | https://17843.live.streamtheworld.com/KFRRFM.mp3 | United States
 | Got Radio  Top 40 | http://206.217.213.235:8270/ | United States |
 | Got Radio Urban Lounge | http://206.217.213.235:8160/ | United States |
 | The Hugh Hewitt Show | http://20603.live.streamtheworld.com:3690/HEWIIR.mp3 | United States |
-| CapRadio - Classical 
-FM 88.7 88.9 90.9 91.7 | http://24883.live.streamtheworld.com:3690/CLASSICALSTREAM.mp3 | United States |
+| CapRadio - Classical  FM 88.7 88.9 90.9 91.7 | http://24883.live.streamtheworld.com:3690/CLASSICALSTREAM.mp3 | United States |
 | CapRadio - Music KXPR-FM | http://19803.live.streamtheworld.com:3690/KXPR.mp3 | United States |
-| Fuego 103.5 & 98.9 KHHM
-FM 101.9 103.5 | http://27143.live.streamtheworld.com:3690/KHHMFM.mp3 | United States |
+| Fuego 103.5 & 98.9 KHHM FM 101.9 103.5 | http://27143.live.streamtheworld.com:3690/KHHMFM.mp3 | United States |
 | KSDW-FM 88.9 San Diego's Wave of Living Water | https://14943.live.streamtheworld.com/KSDW.mp3 | United States |
 | KCNV-FM | https://22983.live.streamtheworld.com/KCNVFM.mp3 | United States |
 | Praise The Rock Radio | http://192.227.85.169:4079/stream | United States |
