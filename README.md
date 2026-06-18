@@ -1,3 +1,5 @@
+> This project is maintained with the assistance of [Claude](https://claude.ai) (Anthropic).
+
 # ETS2_RadioFix
 
 A regularly updated `live_streams.sii` file for [Euro Truck Simulator 2](https://eurotrucksimulator2.com/) and [American Truck Simulator](https://americantrucksimulator.com/), sourced from the community [Radio Stations wiki](https://truck-simulator.fandom.com/wiki/Radio_Stations).
@@ -74,10 +76,6 @@ See [STATIONS.md](STATIONS.md) for the full per-station live/dead status.
 * [ ] Slovakia
 * [ ] Sweden
 * [ ] Ukraine
-
----
-
-> This project is maintained with the assistance of [Claude](https://claude.ai) (Anthropic).
 
 ### Planned features
 * [x] Scrape stations from Fandom wiki automatically
