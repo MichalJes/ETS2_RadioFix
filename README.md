@@ -75,6 +75,10 @@ See [STATIONS.md](STATIONS.md) for the full per-station live/dead status.
 * [ ] Sweden
 * [ ] Ukraine
 
+---
+
+> This project is maintained with the assistance of [Claude](https://claude.ai) (Anthropic).
+
 ### Planned features
 * [x] Scrape stations from Fandom wiki automatically
 * [x] Validate stream URLs and filter dead streams
