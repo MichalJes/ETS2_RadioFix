@@ -2,17 +2,22 @@ name: Update radio stations
 
 on:
   schedule:
-    # Runs every other Monday at 03:00 UTC (biweekly)
+    # Runs on the 1st and 15th of each month at 03:00 UTC
     - cron: "0 3 1,15 * *"
   workflow_dispatch: # allow manual trigger from GitHub UI
 
 jobs:
   update:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
 
     steps:
       - name: Checkout repo
         uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -29,11 +34,25 @@ jobs:
             && echo "changed=false" >> $GITHUB_OUTPUT \
             || echo "changed=true" >> $GITHUB_OUTPUT
 
-      - name: Commit and push updated files
+      - name: Commit and open PR
         if: steps.changes.outputs.changed == 'true'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
+          DATE=$(date -u '+%Y-%m-%d')
+          BRANCH="auto-update/stations-${DATE}"
+
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
+          git checkout -b "${BRANCH}"
           git add live_streams.sii STATIONS.md VALIDATION.md
-          git commit -m "Auto-update radio stations $(date -u '+%Y-%m-%d')"
-          git push
+          git commit -m "Auto-update radio stations ${DATE}"
+          git push origin "${BRANCH}"
+
+          gh pr create \
+            --title "Auto-update radio stations ${DATE}" \
+            --body "Automated station refresh from the Fandom wiki scraper." \
+            --base master \
+            --head "${BRANCH}"
+
+          gh pr merge "${BRANCH}" --merge --auto
