@@ -24,6 +24,8 @@
 | DR P4 | http://live-icy.gss.dr.dk:8000/A/A07H.mp3 | Denmark |
 | DR P5 | http://live-icy.gss.dr.dk:8000/A/A25H.mp3 | Denmark |
 | DR P6 Beat | http://live-icy.gss.dr.dk:8000/A/A29H.mp3 | Denmark |
+| Globus | http://media.wlmm.dk:80/radioglobus | Denmark |
+| GlobusGuld | http://media.wlmm.dk:80/guld2 | Denmark |
 | Radio SLR Slagelse | http://stream.wlmm.dk/stream/54/ | Denmark |
 | Rire et Chansons | https://cdn.nrjaudio.fm/audio1/fr/30401/mp3_128.mp3?origine=fluxradios | France |
 | Chérie FM France | https://cdn.nrjaudio.fm/audio1/fr/30201/mp3_128.mp3?origine=fluxradios | France |
@@ -92,7 +94,6 @@
 | KQBH 101.5 FM | http://ednixon.com:8170/stream | United States |
 | KPFK | https://ic1.sslstream.com/kpfk-fm.mp3 | United States |
 | Eclectic24 89.9 | https://kcrw.streamguys1.com/kcrw_192k_mp3_e24 | United States |
-| Current Radio 89.3 FM | https://current.stream.publicradio.org/kcmp.mp3 | United States |
 | KSPC 88.7 FM | http://37.187.79.93:8419/stream192 | United States |
 | 88.5 FM The SoCal Sound | http://130.166.82.184:8000/;stream.mp3 | United States |
 | Latin Alt 88.5-HD3 | https://stream.885fm.org/latinalt/stream.mp3 | United States |
@@ -157,7 +158,6 @@
 | Kool 96.5 | https://live.wostreaming.net/direct/townsquare-klixfmmp3-ibc3 | United States |
 | 98.3 The Snake | https://live.wostreaming.net/direct/townsquare-ksnqfmmp3-ibc3 | United States |
 | KYRK 106.5 FM | http://crystalout.surfernetwork.com:8001/KYRK-FM_MP3 | United States |
-| D-Rock Radio | https://ais-edge50-live365-dal02.cdnstream.com/a07118 | United States |
 | Way Loud Radio | https://wayfm.streamguys1.com/powerfm.mp3 | United States |
 | Q94.5 | https://18213.live.streamtheworld.com/KFRQFM.mp3 | United States |
 | KZHE 100.5 FM | http://crystalout.surfernetwork.com:8001/KZHE-FM_MP3 | United States |
