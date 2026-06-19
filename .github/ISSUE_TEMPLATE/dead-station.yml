@@ -1,0 +1,32 @@
+name: "\U0001F534 Dead radio station"
+description: Report a station in live_streams.sii that no longer plays
+labels: ["dead-station"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Note: `live_streams.sii` is regenerated automatically every two weeks and dead
+        streams are dropped on each run — check [STATIONS.md](../../STATIONS.md) first,
+        the station may already be marked dead and due to be removed on the next run.
+  - type: input
+    id: station-name
+    attributes:
+      label: Station name
+      placeholder: "e.g. BBC Radio 1"
+    validations:
+      required: true
+  - type: input
+    id: stream-url
+    attributes:
+      label: Stream URL
+      description: The exact URL as it appears in live_streams.sii
+      placeholder: "https://..."
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: What happens when you try to play it
+      placeholder: e.g. connection refused, 404, plays silence, redirects elsewhere
+    validations:
+      required: false

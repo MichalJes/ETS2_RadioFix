@@ -1,0 +1,32 @@
+name: "\U0001F41B Bug report"
+description: Something is wrong with the scraper, the generated files, or the repo tooling
+labels: ["bug"]
+body:
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What you expected instead
+    validations:
+      required: true
+  - type: textarea
+    id: repro
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Run `python scraper/main.py ...`
+        2. ...
+    validations:
+      required: false
+  - type: input
+    id: version
+    attributes:
+      label: Version / commit
+      placeholder: "e.g. v0.3, or a commit hash"
+    validations:
+      required: false
