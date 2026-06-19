@@ -1,6 +1,6 @@
 # Validation Report
 
-**Live:** 180  |  **Dead:** 164
+**Live:** 179  |  **Dead:** 165
 
 ## Dead streams
 
@@ -94,6 +94,7 @@
 | KQBH 101.5 FM | http://ednixon.com:8170/stream | United States |
 | KPFK | https://ic1.sslstream.com/kpfk-fm.mp3 | United States |
 | Eclectic24 89.9 | https://kcrw.streamguys1.com/kcrw_192k_mp3_e24 | United States |
+| Current Radio 89.3 FM | https://current.stream.publicradio.org/kcmp.mp3 | United States |
 | KSPC 88.7 FM | http://37.187.79.93:8419/stream192 | United States |
 | 88.5 FM The SoCal Sound | http://130.166.82.184:8000/;stream.mp3 | United States |
 | Latin Alt 88.5-HD3 | https://stream.885fm.org/latinalt/stream.mp3 | United States |
