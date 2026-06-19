@@ -6,6 +6,7 @@ import os
 sys.path.insert(0, os.path.dirname(__file__))
 
 from scraper import fetch_stations
+import radiobrowser
 from validator import validate
 from formatter import write_sii, write_report, write_stations_md
 
@@ -21,11 +22,29 @@ def main():
     parser.add_argument("--stations", default=DEFAULT_STATIONS, help="Path to STATIONS.md")
     parser.add_argument("--no-validate", action="store_true", help="Skip stream URL validation")
     parser.add_argument("--country", help="Filter to a single country (e.g. 'Poland')")
+    parser.add_argument("--no-radiobrowser", action="store_true",
+                         help="Skip the Radio-Browser API source")
+    parser.add_argument("--radiobrowser-limit", type=int, default=1000,
+                         help="Max stations to pull from Radio-Browser (default: 1000)")
     args = parser.parse_args()
 
     print("Fetching stations from Fandom wiki...")
     stations = fetch_stations()
     print(f"  Found {len(stations)} stations across all countries")
+
+    if not args.no_radiobrowser:
+        print("Fetching stations from Radio-Browser API...")
+        try:
+            rb_stations = radiobrowser.fetch_stations(limit=args.radiobrowser_limit)
+            print(f"  Found {len(rb_stations)} stations")
+        except Exception as e:
+            print(f"  Radio-Browser fetch failed, continuing with Fandom only: {e}")
+            rb_stations = []
+
+        seen = {s.url for s in stations}
+        new = [s for s in rb_stations if s.url not in seen]
+        stations.extend(new)
+        print(f"  Added {len(new)} new stations not already in the Fandom set")
 
     if args.country:
         stations = [s for s in stations if s.country.lower() == args.country.lower()]

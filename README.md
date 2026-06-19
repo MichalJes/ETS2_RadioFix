@@ -2,7 +2,7 @@
 
 # ETS2_RadioFix
 
-A regularly updated `live_streams.sii` file for [Euro Truck Simulator 2](https://eurotrucksimulator2.com/) and [American Truck Simulator](https://americantrucksimulator.com/), sourced from the community [Radio Stations wiki](https://truck-simulator.fandom.com/wiki/Radio_Stations).
+A regularly updated `live_streams.sii` file for [Euro Truck Simulator 2](https://eurotrucksimulator2.com/) and [American Truck Simulator](https://americantrucksimulator.com/), sourced from the community [Radio Stations wiki](https://truck-simulator.fandom.com/wiki/Radio_Stations) and the [Radio-Browser](https://www.radio-browser.info/) directory.
 
 ## Installation
 
@@ -15,6 +15,7 @@ A regularly updated `live_streams.sii` file for [Euro Truck Simulator 2](https:/
 The `scraper/` folder contains a Python CLI that regenerates `live_streams.sii` automatically:
 
 - Fetches all stations from the Fandom wiki via the MediaWiki API
+- Fetches additional stations from the [Radio-Browser](https://www.radio-browser.info/) API (deduplicated against the Fandom set by stream URL)
 - Validates every stream URL (dead streams are excluded)
 - Outputs a fresh `live_streams.sii` and a `VALIDATION.md` report
 
@@ -30,9 +31,15 @@ python scraper/main.py --no-validate
 
 # Single country only
 python scraper/main.py --country "United Kingdom"
+
+# Skip the Radio-Browser source (Fandom wiki only)
+python scraper/main.py --no-radiobrowser
+
+# Pull more/fewer stations from Radio-Browser (default: 1000)
+python scraper/main.py --radiobrowser-limit 2000
 ```
 
-**Last run:** 180 live stations across 20 countries (344 scraped, 164 dead filtered out)
+**Last run:** 1098 live stations across 80 countries (1302 scraped, 204 dead filtered out)
 
 See [STATIONS.md](STATIONS.md) for the full per-station live/dead status.
 
@@ -58,27 +65,28 @@ See [STATIONS.md](STATIONS.md) for the full per-station live/dead status.
 * [x] Türkiye
 * [x] United Kingdom
 * [x] United States
-* [ ] Austria
-* [ ] Bulgaria
+* [x] Austria
+* [x] Bulgaria
 * [ ] Estonia
-* [ ] Finland
-* [ ] Germany
-* [ ] Hungary
-* [ ] Italy
+* [x] Finland
+* [x] Germany
+* [x] Hungary
+* [x] Italy
 * [ ] Lithuania
 * [ ] Luxembourg
-* [ ] Netherlands
-* [ ] Norway
-* [ ] Poland
-* [ ] Romania
-* [ ] Russia
-* [ ] Serbia
-* [ ] Slovakia
-* [ ] Sweden
-* [ ] Ukraine
+* [x] Netherlands
+* [x] Norway
+* [x] Poland
+* [x] Romania
+* [x] Russia
+* [x] Serbia
+* [x] Slovakia
+* [x] Sweden
+* [x] Ukraine
 
 ### Planned features
 * [x] Scrape stations from Fandom wiki automatically
+* [x] Add a second station source (Radio-Browser API)
 * [x] Validate stream URLs and filter dead streams
 * [x] Generate `VALIDATION.md` dead-stream report
 * [ ] Scheduled auto-run to keep `live_streams.sii` up to date
