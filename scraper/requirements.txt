@@ -1,2 +1,2 @@
 # No third-party dependencies — uses only Python stdlib
-# Python 3.9+ required
+# Python 3.10+ required

@@ -1,0 +1,46 @@
+name: CI
+
+on:
+  push:
+    branches: [master]
+  pull_request:
+    branches: [master]
+  workflow_dispatch:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+
+      - name: Set up Python
+        uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065 # v5
+        with:
+          python-version: "3.12"
+
+      - name: Compile Python files
+        run: python -m compileall -q .
+
+      - name: Verify committed generated artifacts
+        run: python tests/verify_artifacts.py
+
+      - name: Run unit tests
+        run: python -m unittest discover -s tests
+
+      - name: Scraper smoke test
+        run: |
+          tmpdir=$(mktemp -d)
+          python scraper/main.py \
+            --no-validate \
+            --no-radiobrowser \
+            --country "United Kingdom" \
+            --output "$tmpdir/live_streams.sii" \
+            --json "$tmpdir/live_streams.json" \
+            --report "$tmpdir/VALIDATION.md" \
+            --stations "$tmpdir/STATIONS.md"
+          python tests/verify_artifacts.py \
+            "$tmpdir/live_streams.sii" \
+            "$tmpdir/live_streams.json" \
+            1

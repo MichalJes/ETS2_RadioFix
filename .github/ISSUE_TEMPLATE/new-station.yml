@@ -1,6 +1,6 @@
 name: "\U0001F4FB New station suggestion"
 description: Suggest a radio station to add to live_streams.sii
-labels: ["new-station"]
+labels: ["enhancement"]
 body:
   - type: markdown
     attributes:

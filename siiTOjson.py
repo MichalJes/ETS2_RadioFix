@@ -1,5 +1,5 @@
-import re
 import json
+import re
 
 with open("live_streams.sii", "r") as inFile:
     file = inFile.read()

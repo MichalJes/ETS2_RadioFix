@@ -1,7 +1,8 @@
-import re
+import ipaddress
 import json
-import urllib.request
+import re
 import urllib.parse
+import urllib.request
 from dataclasses import dataclass
 
 # Allowed URL schemes and a hard cap on field lengths to prevent injecting
@@ -115,17 +116,39 @@ def _extract_url(text: str) -> str | None:
     return m.group(0).rstrip(".,;)") if m else None
 
 
+def _is_blocked_ip_literal(hostname: str | None) -> bool:
+    """Return True if hostname is an IP literal that should never be fetched."""
+    if not hostname:
+        return True
+    try:
+        ip = ipaddress.ip_address(hostname)
+    except ValueError:
+        return False
+    return any((
+        ip.is_loopback,
+        ip.is_private,
+        ip.is_link_local,
+        ip.is_multicast,
+        ip.is_reserved,
+        ip.is_unspecified,
+    ))
+
+
 def _validate_url(url: str) -> str | None:
     """Return the URL if safe to write into .sii, else None."""
     if len(url) > _MAX_URL_LEN:
         return None
+    if _SII_FORBIDDEN.search(url):
+        return None
     try:
         parsed = urllib.parse.urlparse(url)
-    except Exception:
+    except ValueError:
         return None
     if parsed.scheme not in _ALLOWED_SCHEMES:
         return None
     if not parsed.netloc:
+        return None
+    if _is_blocked_ip_literal(parsed.hostname):
         return None
     # Strip any fragment (e.g. #AddedByRaf_Salvado) — not valid in stream URLs
     url = urllib.parse.urlunparse(parsed._replace(fragment=""))
@@ -273,7 +296,8 @@ SECTION_PARENT = {
 def fetch_stations() -> list[Station]:
     req = urllib.request.Request(FANDOM_API)
     req.add_header("User-Agent", "Mozilla/5.0 (compatible; ETS2RadioScraper/1.0)")
-    with urllib.request.urlopen(req, timeout=15) as resp:
+    # FANDOM_API is a fixed HTTPS MediaWiki endpoint, not user-controlled input.
+    with urllib.request.urlopen(req, timeout=15) as resp:  # nosec B310
         data = json.loads(resp.read().decode())
     wikitext = data["parse"]["wikitext"]["*"]
 

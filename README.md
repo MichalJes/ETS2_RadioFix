@@ -17,9 +17,9 @@ The `scraper/` folder contains a Python CLI that regenerates `live_streams.sii` 
 - Fetches all stations from the Fandom wiki via the MediaWiki API
 - Fetches additional stations from the [Radio-Browser](https://www.radio-browser.info/) API (deduplicated against the Fandom set by stream URL)
 - Validates every stream URL (dead streams are excluded)
-- Outputs a fresh `live_streams.sii` and a `VALIDATION.md` report
+- Outputs fresh `live_streams.sii`, `live_streams.json`, `STATIONS.md`, and `VALIDATION.md` files
 
-**Requirements:** Python 3.9+, no third-party dependencies
+**Requirements:** Python 3.10+, no third-party runtime dependencies
 
 **Usage:**
 ```bash
@@ -28,6 +28,9 @@ python scraper/main.py
 
 # Skip validation
 python scraper/main.py --no-validate
+
+# Write to custom output paths
+python scraper/main.py --output /tmp/live_streams.sii --json /tmp/live_streams.json
 
 # Single country only
 python scraper/main.py --country "United Kingdom"
@@ -39,7 +42,7 @@ python scraper/main.py --no-radiobrowser
 python scraper/main.py --radiobrowser-limit 2000
 ```
 
-**Last run:** 1098 live stations across 80 countries (1302 scraped, 204 dead filtered out)
+**Last committed validation:** 1085 live stations, 213 dead streams filtered out.
 
 See [STATIONS.md](STATIONS.md) for the full per-station live/dead status.
 
@@ -89,7 +92,9 @@ See [STATIONS.md](STATIONS.md) for the full per-station live/dead status.
 * [x] Add a second station source (Radio-Browser API)
 * [x] Validate stream URLs and filter dead streams
 * [x] Generate `VALIDATION.md` dead-stream report
-* [ ] Scheduled auto-run to keep `live_streams.sii` up to date
-* [ ] Auto-open pull request when new stations are found
+* [x] Scheduled auto-run to keep `live_streams.sii` up to date
+* [x] Auto-open pull request when new stations are found
 * [ ] Add missing countries from the wiki
 * [x] ISO 639-3 language code standardisation across all stations
+* [x] Keep `live_streams.json` in sync with generated `.sii` output
+* [x] Pull request CI for compile, unit, smoke, and generated-artifact checks

@@ -19,7 +19,11 @@ You can expect an acknowledgement within 7 days.
 
 ## Scope
 
-This project scrapes radio station data from the [Truck Simulator Fandom wiki](https://truck-simulator.fandom.com/wiki/Radio_Stations) and writes it into a game configuration file (`live_streams.sii`). Security considerations include:
+This project scrapes radio station data from the [Truck Simulator Fandom wiki](https://truck-simulator.fandom.com/wiki/Radio_Stations) and the [Radio-Browser](https://www.radio-browser.info/) directory, then writes generated `live_streams.sii`, `live_streams.json`, `STATIONS.md`, and `VALIDATION.md` files. Security considerations include:
 
-- **URL injection** — malicious URLs committed to the wiki could end up in the output file. The scraper validates all URLs (scheme allowlist, length cap, format check) before writing them.
-- **Field injection** — pipe characters and quotes are stripped from station names and genres to prevent breaking the `.sii` format.
+- **URL injection** — malicious URLs committed to an upstream directory could end up in generated output. The scraper validates all URLs before writing them: only `http` and `https` schemes are allowed, URLs have a length cap, fragments are stripped, malformed URLs are rejected, and local/private/link-local IP literal targets are rejected.
+- **Field injection** — pipe characters, quotes, and newlines are stripped from station names, genres, and country fields to prevent breaking the `.sii` pipe-delimited format.
+- **Validator SSRF hardening** — validation fetches untrusted stream URLs. Before each validation request, the validator rejects unsafe schemes, local/private/link-local/reserved/multicast/unspecified IP targets, hostnames resolving to those ranges, and unsafe redirect targets.
+- **Generated artifact consistency** — CI checks that `live_streams.sii` and `live_streams.json` contain the same stations and contiguous indices.
+
+Known limitation: generated Markdown reports are intended for repository display, not for rendering inside privileged HTML contexts.
