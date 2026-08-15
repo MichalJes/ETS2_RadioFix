@@ -1,16 +1,18 @@
 #!/usr/bin/env python3
 import argparse
-import sys
 import os
+import sys
 
 sys.path.insert(0, os.path.dirname(__file__))
 
-from scraper import fetch_stations
 import radiobrowser
+from formatter import write_json, write_report, write_sii, write_stations_md
 from validator import validate
-from formatter import write_sii, write_report, write_stations_md
+
+from scraper import fetch_stations
 
 DEFAULT_OUT = os.path.join(os.path.dirname(__file__), "..", "live_streams.sii")
+DEFAULT_JSON = os.path.join(os.path.dirname(__file__), "..", "live_streams.json")
 DEFAULT_REPORT = os.path.join(os.path.dirname(__file__), "..", "VALIDATION.md")
 DEFAULT_STATIONS = os.path.join(os.path.dirname(__file__), "..", "STATIONS.md")
 
@@ -18,6 +20,7 @@ DEFAULT_STATIONS = os.path.join(os.path.dirname(__file__), "..", "STATIONS.md")
 def main():
     parser = argparse.ArgumentParser(description="ETS2 Radio station scraper & validator")
     parser.add_argument("--output", default=DEFAULT_OUT, help="Path to output .sii file")
+    parser.add_argument("--json", default=DEFAULT_JSON, help="Path to output .json file")
     parser.add_argument("--report", default=DEFAULT_REPORT, help="Path to validation report .md")
     parser.add_argument("--stations", default=DEFAULT_STATIONS, help="Path to STATIONS.md")
     parser.add_argument("--no-validate", action="store_true", help="Skip stream URL validation")
@@ -37,7 +40,7 @@ def main():
         try:
             rb_stations = radiobrowser.fetch_stations(limit=args.radiobrowser_limit)
             print(f"  Found {len(rb_stations)} stations")
-        except Exception as e:
+        except RuntimeError as e:
             print(f"  Radio-Browser fetch failed, continuing with Fandom only: {e}")
             rb_stations = []
 
@@ -77,6 +80,9 @@ def main():
 
     out_path = os.path.abspath(args.output)
     write_sii(stations, out_path)
+    json_path = os.path.abspath(args.json)
+    write_json(stations, json_path)
+    print(f"  JSON written: {json_path}")
     print(f"\nDone! {len(stations)} stations written to: {out_path}")
 
 

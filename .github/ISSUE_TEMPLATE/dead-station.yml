@@ -1,6 +1,6 @@
 name: "\U0001F534 Dead radio station"
 description: Report a station in live_streams.sii that no longer plays
-labels: ["dead-station"]
+labels: ["bug"]
 body:
   - type: markdown
     attributes:

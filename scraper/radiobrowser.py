@@ -1,7 +1,9 @@
 import json
-import urllib.request
+import urllib.error
 import urllib.parse
-from scraper import Station, _validate_url, _sanitise_field, _resolve_lang
+import urllib.request
+
+from scraper import Station, _resolve_lang, _sanitise_field, _validate_url
 
 # Public mirrors of the community-run Radio-Browser directory (radio-browser.info).
 # Tried in order; the API is read-only and requires no key.
@@ -47,7 +49,8 @@ def _fetch_json(server: str, limit: int) -> list[dict]:
     url = f"{server}/json/stations/search?{urllib.parse.urlencode(params)}"
     req = urllib.request.Request(url)
     req.add_header("User-Agent", "ETS2RadioScraper/1.0")
-    with urllib.request.urlopen(req, timeout=20) as resp:
+    # The URL is built from the fixed HTTPS Radio-Browser mirror allowlist above.
+    with urllib.request.urlopen(req, timeout=20) as resp:  # nosec B310
         return json.loads(resp.read().decode())
 
 
@@ -58,7 +61,7 @@ def fetch_stations(limit: int = 1000) -> list[Station]:
         try:
             raw = _fetch_json(server, limit)
             break
-        except Exception as e:
+        except (OSError, TimeoutError, urllib.error.URLError, json.JSONDecodeError) as e:
             last_err = e
     if raw is None:
         raise RuntimeError(f"All Radio-Browser mirrors failed: {last_err}")
