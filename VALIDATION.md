@@ -1,12 +1,11 @@
 # Validation Report
 
-**Live:** 1215  |  **Dead:** 185
+**Live:** 1210  |  **Dead:** 187
 
 ## Dead streams
 
 | Station | URL | Country |
 |---|---|---|
-| Willy | https://streams.radio.dpgmedia.cloud/redirect/willy_be/aac | Belgium |
 | iTruck Radio | https://fred.torontocast.com:2905/stream | Canada |
 | 98.5 Virgin Radio | https://24963.live.streamtheworld.com/CIBKFM.mp3 | Canada |
 | 100.3 The Bear | https://24963.live.streamtheworld.com/CFBRFM.mp3 | Canada |
@@ -18,8 +17,8 @@
 | Radio Beethoven | https://unlimited11-cl.dps.live/beethovenfm/aac/icecast.audio | Chile |
 | Radio Disney (Chile) | https://24503.live.streamtheworld.com/DISNEY_CHI_SA_SC | Chile |
 | Duna FM | http://node-26.zeno.fm/ev677z1hxtzuv?rj-ttl=5&rj-tok=AAABcTiAfZUA2kJJc-_DRIDQKQ | Chile |
+| FM Tiempo | https://redirector.dps.live/fmtiempo/mp3/icecast.audio | Chile |
 | Universidad de Chile | https://streamuchile.teslati.com/liveruch | Chile |
-| KBS韩国国际广播电台 | https://api.xmgspace.me/api/kbs-stream/ | China |
 | Českého Impulsu | http://icecast6.play.cz/cesky-impuls.mp3 | Czechia |
 | Impuls Ráááádio | http://icecast5.play.cz/impuls128.mp3 | Czechia |
 | DR P1 | http://live-icy.gss.dr.dk:8000/A/A03H.mp3 | Denmark |
@@ -33,11 +32,14 @@
 | Chérie FM France | https://cdn.nrjaudio.fm/audio1/fr/30201/mp3_128.mp3?origine=fluxradios | France |
 | Nostalgie France | https://cdn.nrjaudio.fm/audio1/fr/30601/mp3_128.mp3?origine=fluxradios | France |
 | RBC Radio | https://stream.zeno.fm/d4rif79rklpuv | Iceland |
+| Tamil Sun FM | https://usa2.fastcast4u.com/proxy/tamilsun?mp=/; | India |
+| Prambors FM Jakarta 102.2 | http://103.24.105.90:9300/pjkt | Indonesia |
 | SOUND UP STATION NFRS | https://stream2.rcast.net/70945 | Japan |
-| Chifuru! | https://157.254.194.202/stream/nanahira@256 | Japan |
 | Latvijas Radio 2 | http://lr2mp1.latvijasradio.lv:8002/;stream.mp3 | Latvia |
 | Latvijas Radio 3 Klasika | http://lr3mp0.latvijasradio.lv:8004/;stream.mp3 | Latvia |
 | Radio Aswat | http://broadcast.ice.infomaniak.ch/aswat-high.mp3?.mp3 | Morocco |
+| JOE | https://stream.joe.nl/joe/aachigh | Netherlands |
+| Q-Music | https://icecast-qmusicnl-cdp.triple-it.nl/Qmusic_nl_live_high.aac?aw_0_1st.playerId=redirect | Netherlands |
 | The Edge | http://icecast.mediaworks.co.nz:8000/theedge | New Zealand |
 | ZM | http://radionetwork-iheart-ice.streamguys1.com/zmalt | New Zealand |
 | The Hits | http://radionetwork-iheart-ice.streamguys1.com/hitsak2 | New Zealand |
@@ -53,13 +55,12 @@
 | LiveSPORT Radio | http://pistons.catalyst.net.nz/trackside-radio-high | New Zealand |
 | Radio New Zealand Concert | http://streaming.radionz.co.nz/concert-mbr | New Zealand |
 | Bubamara | http://88.85.99.2/live-128.mp3 | North Macedonia |
-| Radio One FM 91 | https://cc.vmakerhost.com/proxy/karachi?mp=/stream | Pakistan |
 | Yes FM 101.1 | https://28153.live.streamtheworld.com/YESTHEBEST_MNL_SC | Philippines |
 | Love Radio Manila | https://22283.live.streamtheworld.com/LOVERADIO_MNL_SC | Philippines |
 | Easy Rock 96.3 | https://22243.live.streamtheworld.com/EASYROCK_MNL_SC | Philippines |
 | Energy FM 106.7 | http://ph-icecast.eradioportal.com:8000/energyfm_manila | Philippines |
-| Polskie Radio 24 | http://stream3.polskieradio.pl:8080/;.mp3 | Poland |
 | Polskie Radio Jedynka | http://mp3.polskieradio.pl:8900/;.mp3 | Poland |
+| Polskie Radio 24 | http://stream3.polskieradio.pl:8080/;.mp3 | Poland |
 | Cidade FM | https://mcrscast.mcr.iol.pt/cidadefm | Portugal |
 | Wave Anime Radio | https://channel_3.waveani.fun/stream | Russia |
 | Radio Rwanda | https://listen.rba.co.rw:8008/rwanda/ | Rwanda |
@@ -71,16 +72,15 @@
 | La Raza Network Norteñas | http://rock2.norsanmedia.com:8000/nortenas.m3u | Spain |
 | WGSP Latina 102.3 FM - North Carolina | http://rock2.norsanmedia.com:8000/wgsp.m3u | Spain |
 | WOLS La Raza 106.1 FM - North Carolina | http://rock2.norsanmedia.com:8000/wols.m3u | Spain |
-| COPE Cartagena | http://wecast07-o-cloud.flumotion.com/copesedes/cartagena.mp3 | Spain |
-| Lugna Favoriter Stockholm | http://fm03-ice.stream.khz.se/fm03_mp3 | Sweden |
 | Bandit Rock | http://fm02-ice.stream.khz.se/fm02_mp3 | Sweden |
 | Top Two | http://icecast.radiotop.ch/toptwo_128 | Switzerland |
 | Energy Zürich (NRJ) | http://broadcast.infomaniak.ch/energyzuerich-high.mp3 | Switzerland |
+| Big B Radio - Kpop | https://antares.dribbcast.com/proxy/kpop?mp=/s | The Republic Of Korea |
 | Virgin Radio Türkiye | http://18463.live.streamtheworld.com/VIRGIN_RADIO_SC | Türkiye |
 | Number1 FM | http://sh.mncdn.com:8092 | Türkiye |
 | PowerFM | http://powerturk.listenpowerapp.com/powerturk/mpeg/icecast.audio | Türkiye |
-| Radio Kultura Classical | https://91.218.213.49:8000/urclassic-mp3 | Ukraine |
-| Radio Kultura Kazka | https://91.218.213.49:8000/urkazka-mp3 | Ukraine |
+| Avto Radio Ukraine | https://cast.mediaonline.net.ua/avtoradio320 | Ukraine |
+| Radio Shanson Ukraine | https://cast.brg.ua/newshanson_main_public_mp3_hq | Ukraine |
 | Ultra106 | https://panel.ultra106.co.uk:8000/radio.UHD | United Kingdom |
 | Shockwaves Radio | https://vh-azura01.radio.volthosting.co.uk/listen/shockwaves_radio/radio.mp3 | United Kingdom |
 | La Caliente 96.9 | https://live.wostreaming.net/direct/agmedia28-kebtfmmp3-ibc3 | United States |
@@ -92,11 +92,13 @@
 | KGRX 89.1 FM | https://27063.live.streamtheworld.com/KVPRFM.mp3 | United States |
 | KHDR 96.9 FM The Drive | https://ais-edge08-live365-dal02.cdnstream.com/a98605 | United States |
 | KGOE News-Talk-Sports 1480 AM | https://us9.maindigitalstream.com/ssl/KGOE | United States |
+| 93.7 Kiss Country | https://22973.live.streamtheworld.com/KSKSFM.mp3 | United States |
 | 95.7 The Fox | http://17853.live.streamtheworld.com/KJFXFM.mp3 | United States |
 | KMGV-FM Mega 97.9 | https://23113.live.streamtheworld.com/KMGVFM.mp3 | United States |
 | Exitos 107.1 | https://17803.live.streamtheworld.com/KHITFM.mp3 | United States |
 | KGED Talk Radio 1680 AM | http://sc8.streamingpulse.info:7097/stream | United States |
 | 101.9 La Buena KLBN-FM | https://18243.live.streamtheworld.com/KLBNFM.mp3 | United States |
+| 580 AM KMJ News/Talk Radio | https://14983.live.streamtheworld.com/KMJAM.mp3 | United States |
 | DKFM | http://maggie.torontocast.com:18090/live.mp3 | United States |
 | KBIF 900 AM | http://www.dinnerjazzexcursion.com:8000/KBIF2 | United States |
 | KFRR FM 104.1 It Just Rocks | https://17843.live.streamtheworld.com/KFRRFM.mp3 | United States |
@@ -111,7 +113,6 @@
 | KQBH 101.5 FM | http://ednixon.com:8170/stream | United States |
 | KPFK | https://ic1.sslstream.com/kpfk-fm.mp3 | United States |
 | Eclectic24 89.9 | https://kcrw.streamguys1.com/kcrw_192k_mp3_e24 | United States |
-| Current Radio 89.3 FM | https://current.stream.publicradio.org/kcmp.mp3 | United States |
 | KSPC 88.7 FM | http://37.187.79.93:8419/stream192 | United States |
 | 88.5 FM The SoCal Sound | http://130.166.82.184:8000/;stream.mp3 | United States |
 | Latin Alt 88.5-HD3 | https://stream.885fm.org/latinalt/stream.mp3 | United States |
@@ -136,6 +137,7 @@
 | KDOW 1220 AM | http://24863.live.streamtheworld.com:3690/KDOWAM.mp3 | United States |
 | KHAY | http://25013.live.streamtheworld.com:3690/KHAYFM_SC | United States |
 | 106.3 The Vibe | http://25003.live.streamtheworld.com:3690/KVYBFM.mp3 | United States |
+| 95.1 KBBY Ventura | http://22973.live.streamtheworld.com:3690/KBBYFM.mp3 | United States |
 | 98.3 FM The Word | http://13743.live.streamtheworld.com:3690/KDARFM.mp3 | United States |
 | Radio Lazer 102.9 | https://ice9.securenetsystems.net/KXLM | United States |
 | KRUZ 103.3 FM | http://17553.live.streamtheworld.com:3690/WKRUFM.mp3 | United States |
@@ -178,6 +180,7 @@
 | Way Loud Radio | https://wayfm.streamguys1.com/powerfm.mp3 | United States |
 | Q94.5 | https://18213.live.streamtheworld.com/KFRQFM.mp3 | United States |
 | KZHE 100.5 FM | http://crystalout.surfernetwork.com:8001/KZHE-FM_MP3 | United States |
+| 104.7 The Bear | https://14983.live.streamtheworld.com/KYYIFM.mp3 | United States |
 | 92.5 KOMA | https://playerservices.streamtheworld.com/api/livestream-redirect/KOMAHD2.mp3 | United States |
 | WEQX 102.7 | http://crystalout.surfernetwork.com:8001/WEQX_MP3 | United States |
 | 106.7 WIZN | http://26433.live.streamtheworld.com/WIZNFM.mp3 | United States |
@@ -189,5 +192,4 @@
 | RFC Alternative Hits #3 | http://rfcmedia.streamguys1.com/sraltrockhits.mp3 | United States |
 | WAME Legends 550 AM | http://crystalout.surfernetwork.com:8001/WAME-AM_MP3 | United States |
 | Hard Rock Radio FM | http://67.249.184.45:8015/ | United States |
-| WALM 2 HD Opus | https://icecast.walmradio.com:8443/walm2_opus | United States |
 | Chilltrax | http://server1.chilltrax.com:9000/ | United States |
