@@ -16,6 +16,7 @@ jobs:
     permissions:
       contents: write
       pull-requests: write
+      actions: write
 
     steps:
       - name: Checkout repo
@@ -62,5 +63,8 @@ jobs:
             --body "Automated station refresh from the Fandom wiki scraper." \
             --base master \
             --head "${BRANCH}"
+
+          # workflow_dispatch is supported for GITHUB_TOKEN and runs CI on this commit.
+          gh workflow run ci.yml --ref "${BRANCH}"
 
           gh pr merge "${BRANCH}" --merge --auto --delete-branch

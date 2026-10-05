@@ -1,7 +1,9 @@
 #!/usr/bin/env python3
 import argparse
+import json
 import os
 import sys
+import urllib.error
 
 sys.path.insert(0, os.path.dirname(__file__))
 
@@ -25,15 +27,27 @@ def main():
     parser.add_argument("--stations", default=DEFAULT_STATIONS, help="Path to STATIONS.md")
     parser.add_argument("--no-validate", action="store_true", help="Skip stream URL validation")
     parser.add_argument("--country", help="Filter to a single country (e.g. 'Poland')")
+    parser.add_argument("--no-fandom", action="store_true", help="Skip the Fandom wiki source")
+    parser.add_argument("--allow-partial", action="store_true",
+                        help="Allow output when one enabled source fails")
     parser.add_argument("--no-radiobrowser", action="store_true",
                          help="Skip the Radio-Browser API source")
     parser.add_argument("--radiobrowser-limit", type=int, default=1000,
                          help="Max stations to pull from Radio-Browser (default: 1000)")
     args = parser.parse_args()
 
-    print("Fetching stations from Fandom wiki...")
-    stations = fetch_stations()
-    print(f"  Found {len(stations)} stations across all countries")
+    if args.no_fandom and args.no_radiobrowser:
+        parser.error("At least one station source must be enabled")
+    stations = []
+    source_errors = []
+    if not args.no_fandom:
+        print("Fetching stations from Fandom wiki...")
+        try:
+            stations = fetch_stations()
+            print(f"  Found {len(stations)} stations across all countries")
+        except (OSError, urllib.error.URLError, json.JSONDecodeError, KeyError) as e:
+            source_errors.append(f"Fandom: {e}")
+            print(f"  Fandom fetch failed: {e}")
 
     if not args.no_radiobrowser:
         print("Fetching stations from Radio-Browser API...")
@@ -41,13 +55,20 @@ def main():
             rb_stations = radiobrowser.fetch_stations(limit=args.radiobrowser_limit)
             print(f"  Found {len(rb_stations)} stations")
         except RuntimeError as e:
-            print(f"  Radio-Browser fetch failed, continuing with Fandom only: {e}")
+            source_errors.append(f"Radio-Browser: {e}")
+            print(f"  Radio-Browser fetch failed: {e}")
             rb_stations = []
 
         seen = {s.url for s in stations}
         new = [s for s in rb_stations if s.url not in seen]
         stations.extend(new)
         print(f"  Added {len(new)} new stations not already in the Fandom set")
+
+    if source_errors and not args.allow_partial:
+        parser.error("Source fetch failed; use --allow-partial to permit partial output: "
+                     + "; ".join(source_errors))
+    if not stations:
+        parser.error("No stations fetched; existing output files were preserved")
 
     if args.country:
         stations = [s for s in stations if s.country.lower() == args.country.lower()]

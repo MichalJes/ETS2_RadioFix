@@ -45,6 +45,12 @@ Usage:
 # Full run: scrape, validate, and regenerate all default artifacts
 python scraper/main.py
 
+# Radio-Browser only (useful when Fandom is unavailable)
+python scraper/main.py --no-fandom
+
+# Permit a partial refresh if one enabled source fails
+python scraper/main.py --allow-partial
+
 # Skip validation and write all scraped stations
 python scraper/main.py --no-validate
 
@@ -65,12 +71,28 @@ python scraper/main.py --no-radiobrowser
 python scraper/main.py --radiobrowser-limit 2000
 ```
 
+Enabled sources must all succeed by default; a source failure exits before writing
+artifacts. Use `--no-fandom` to explicitly select Radio-Browser alone, or
+`--allow-partial` to accept data from the remaining source. Empty fetch results
+are rejected even with partial output enabled. Scheduled updates keep the strict
+default to avoid silently replacing the dataset with incomplete source coverage.
+
+Stream validation connects directly to validated public IP addresses and retains
+normal HTTPS certificate and hostname verification. It does not use HTTP(S)
+proxy environment variables; proxy-only networks can scrape sources but cannot
+validate streams without direct connectivity.
+
 ## Automation and quality checks
 
 This repo has two GitHub Actions workflows:
 
 - **CI**: runs on pushes and pull requests; checks Python compilation, unit tests, scraper smoke output, and `live_streams.sii` / `live_streams.json` consistency.
-- **Update radio stations**: runs on the 1st and 15th of each month and can also be triggered manually. It regenerates station data, opens an auto-update PR when files change, and auto-merges once checks pass.
+- **Update radio stations**: runs on the 1st and 15th of each month and can also be triggered manually. It regenerates station data, opens an auto-update PR when files change, and auto-merges once checks pass. Because PRs created with `GITHUB_TOKEN` do not
+  trigger ordinary PR workflows, the update job explicitly dispatches CI on the
+  generated branch using `actions: write`. CI's live smoke check uses Radio-Browser;
+  wiki parsing is covered by offline regression tests. Repository settings must
+  permit Actions-created PRs and auto-merge, with the CI `test` check required by
+  branch protection to enforce passing checks before merging.
 
 Useful local checks:
 
