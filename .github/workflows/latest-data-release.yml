@@ -34,9 +34,9 @@ jobs:
             VALIDATION.md > checksums.txt
 
           cat > release-notes.md <<'EOF'
-          Mutable release containing the latest generated station data from `master`.
+          Mutable release containing generated station data from the selected workflow run.
 
-          Use the versioned releases for immutable project/tooling snapshots.
+          Use the versioned releases for named project/tooling snapshots.
 
           ## Downloads
           - `live_streams.sii` — drop into the ETS2/ATS documents folder.
