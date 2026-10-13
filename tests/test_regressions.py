@@ -148,3 +148,25 @@ class SourceRegressionTests(unittest.TestCase):
             with self.assertRaises(SystemExit):
                 self.invoke(directory, '--allow-partial')
             self.assertFalse((Path(directory) / 'streams.sii').exists())
+
+    def test_empty_fandom_source_fails_even_when_radio_browser_has_data(self):
+        with tempfile.TemporaryDirectory() as directory, \
+                patch('main.fetch_stations', return_value=[]), \
+                patch('main.radiobrowser.fetch_stations', return_value=[
+                    Station('https://example.org/live', 'Radio', 'Rock', 'ENG', 192, 'UK')]):
+            output = Path(directory) / 'streams.sii'
+            output.write_text('existing data')
+            with self.assertRaises(SystemExit):
+                self.invoke(directory, '--allow-partial')
+            self.assertEqual(output.read_text(), 'existing data')
+
+    def test_empty_radio_browser_source_fails_even_when_fandom_has_data(self):
+        with tempfile.TemporaryDirectory() as directory, \
+                patch('main.fetch_stations', return_value=[
+                    Station('https://example.org/wiki', 'Wiki Radio', 'Rock', 'ENG', 192, 'UK')]), \
+                patch('main.radiobrowser.fetch_stations', return_value=[]):
+            output = Path(directory) / 'streams.sii'
+            output.write_text('existing data')
+            with self.assertRaises(SystemExit):
+                self.invoke(directory, '--allow-partial')
+            self.assertEqual(output.read_text(), 'existing data')

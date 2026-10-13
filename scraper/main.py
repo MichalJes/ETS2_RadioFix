@@ -40,11 +40,14 @@ def main():
         parser.error("At least one station source must be enabled")
     stations = []
     source_errors = []
+    empty_source_errors = []
     if not args.no_fandom:
         print("Fetching stations from Fandom wiki...")
         try:
             stations = fetch_stations()
             print(f"  Found {len(stations)} stations across all countries")
+            if not stations:
+                empty_source_errors.append("Fandom returned no stations")
         except (OSError, urllib.error.URLError, json.JSONDecodeError, KeyError) as e:
             source_errors.append(f"Fandom: {e}")
             print(f"  Fandom fetch failed: {e}")
@@ -54,6 +57,8 @@ def main():
         try:
             rb_stations = radiobrowser.fetch_stations(limit=args.radiobrowser_limit)
             print(f"  Found {len(rb_stations)} stations")
+            if not rb_stations:
+                empty_source_errors.append("Radio-Browser returned no stations")
         except RuntimeError as e:
             source_errors.append(f"Radio-Browser: {e}")
             print(f"  Radio-Browser fetch failed: {e}")
@@ -64,6 +69,9 @@ def main():
         stations.extend(new)
         print(f"  Added {len(new)} new stations not already in the Fandom set")
 
+    if empty_source_errors:
+        parser.error("Enabled source returned no stations; existing output files were preserved: "
+                     + "; ".join(empty_source_errors))
     if source_errors and not args.allow_partial:
         parser.error("Source fetch failed; use --allow-partial to permit partial output: "
                      + "; ".join(source_errors))
