@@ -142,6 +142,7 @@ def _validate_url(url: str) -> str | None:
         return None
     try:
         parsed = urllib.parse.urlparse(url)
+        _ = parsed.port
     except ValueError:
         return None
     if parsed.scheme not in _ALLOWED_SCHEMES:
@@ -225,7 +226,7 @@ def _parse_table(table_text: str, country: str) -> list[Station]:
 
     for row in rows[1:]:
         raw_cells = re.split(r"\n[|!](?!\|)", row)
-        cells = [_clean(c) for c in raw_cells if c.strip() not in ("", "-", "+")]
+        cells = [_clean(c) for c in raw_cells[1:]]
         if len(cells) < 2:
             continue
 

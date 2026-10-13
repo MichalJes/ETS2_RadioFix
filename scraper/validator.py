@@ -44,16 +44,63 @@ def _is_safe_fetch_url(url: str) -> bool:
     return True
 
 
-class _SafeRedirectHandler(urllib.request.HTTPRedirectHandler):
-    def redirect_request(self, req, fp, code, msg, headers, newurl):
-        if not _is_safe_fetch_url(newurl):
-            raise urllib.error.HTTPError(newurl, code, "Unsafe redirect target", headers, fp)
-        return super().redirect_request(req, fp, code, msg, headers, newurl)
+def _connect_public(address, timeout=socket._GLOBAL_DEFAULT_TIMEOUT, source_address=None):
+    """Resolve once, validate every answer, then connect using its numeric sockaddr."""
+    host, port = address
+    addresses = socket.getaddrinfo(host, port, type=socket.SOCK_STREAM)
+    if not addresses or any(_is_blocked_ip(str(item[4][0])) for item in addresses):
+        raise OSError("Unsafe stream address")
+    last_error = None
+    for family, socktype, proto, _, sockaddr in addresses:
+        sock = socket.socket(family, socktype, proto)
+        try:
+            if timeout is not socket._GLOBAL_DEFAULT_TIMEOUT:
+                sock.settimeout(timeout)
+            if source_address:
+                sock.bind(source_address)
+            sock.connect(sockaddr)
+            return sock
+        except OSError as exc:
+            last_error = exc
+            sock.close()
+    raise last_error or OSError("No usable stream address")
 
 
 def _urlopen(req: urllib.request.Request, timeout: int):
-    opener = urllib.request.build_opener(_SafeRedirectHandler)
-    return opener.open(req, timeout=timeout)
+    # Direct connections are intentional: a proxy would resolve the target itself,
+    # outside our address validation. HTTPSConnection retains hostname TLS checks.
+    url = req.full_url
+    method = req.get_method()
+    for _ in range(11):
+        if _validate_url(url) is None:
+            raise ValueError("Unsafe stream URL")
+        parsed = urllib.parse.urlsplit(url)
+        cls = http.client.HTTPSConnection if parsed.scheme == "https" else http.client.HTTPConnection
+        connection = cls(parsed.hostname, parsed.port, timeout=timeout)
+        connection._create_connection = _connect_public
+        try:
+            path = urllib.parse.urlunsplit(("", "", parsed.path or "/", parsed.query, ""))
+            headers = dict(req.header_items())
+            headers["Connection"] = "close"
+            connection.request(method, path, headers=headers)
+            response = connection.getresponse()
+            if response.status in (301, 302, 303, 307, 308) and response.getheader("Location"):
+                url = urllib.parse.urljoin(url, response.getheader("Location"))
+                response.close()
+                connection.close()
+                if response.status == 303 and method != "HEAD":
+                    method = "GET"
+                continue
+            if response.status >= 400:
+                status = response.status
+                response.close()
+                connection.close()
+                raise urllib.error.HTTPError(url, status, "Stream request failed", {}, None)
+            return response
+        except Exception:
+            connection.close()
+            raise
+    raise urllib.error.HTTPError(url, 310, "Too many redirects", {}, None)
 
 
 def _check(url: str) -> bool:

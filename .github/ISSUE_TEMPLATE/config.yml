@@ -1,1 +1,8 @@
-blank_issues_enabled: true
+blank_issues_enabled: false
+contact_links:
+  - name: Station source data
+    url: https://truck-simulator.fandom.com/wiki/Radio_Stations
+    about: Add or correct ordinary station listings at the community wiki when possible.
+  - name: Radio-Browser directory
+    url: https://www.radio-browser.info/
+    about: Add or correct public radio directory entries upstream when possible.

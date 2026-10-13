@@ -27,7 +27,7 @@ Security considerations include:
 
 - **Generated file injection** — upstream station names, genres, countries, and URLs are untrusted. Text fields are stripped of pipe characters, quotes, and newlines before they are written to the `.sii` pipe-delimited format.
 - **URL injection** — only `http` and `https` stream URLs are accepted. Malformed URLs, overlong URLs, fragments, SII-breaking characters, and local/private/link-local IP literal targets are rejected before generated output is written.
-- **Validator SSRF hardening** — validation fetches untrusted stream URLs. Before each validation request, the validator rejects unsafe schemes, unsafe IP literals, hostnames resolving to loopback/private/link-local/reserved/multicast/unspecified addresses, mixed safe/unsafe DNS results, and unsafe redirect targets.
+- **Validator SSRF hardening** — validation fetches untrusted stream URLs. Before each validation request, the validator rejects unsafe schemes, unsafe IP literals, hostnames resolving to loopback/private/link-local/reserved/multicast/unspecified addresses, mixed safe/unsafe DNS results, and unsafe redirect targets. Connections use the exact validated DNS addresses; HTTPS still verifies the original hostname. Proxy environment variables are ignored for stream validation so a proxy cannot resolve a different target address.
 - **Generated artifact consistency** — CI checks that `live_streams.sii` and `live_streams.json` contain the same stations with contiguous indices.
 - **Workflow permissions** — the scheduled update workflow uses repository write permissions so it can open and merge generated-data PRs. Treat changes to `.github/workflows/` as security-sensitive.
 

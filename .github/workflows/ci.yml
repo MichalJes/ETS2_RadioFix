@@ -34,8 +34,8 @@ jobs:
           tmpdir=$(mktemp -d)
           python scraper/main.py \
             --no-validate \
-            --no-radiobrowser \
-            --country "United Kingdom" \
+            --no-fandom \
+            --radiobrowser-limit 5 \
             --output "$tmpdir/live_streams.sii" \
             --json "$tmpdir/live_streams.json" \
             --report "$tmpdir/VALIDATION.md" \
